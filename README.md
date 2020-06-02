@@ -87,7 +87,7 @@ The patient files are located within UCSF Radiology private Linux servers. Here 
 <a name="list"></a> 
 ### List of Radiology servers 
 
-Please refer to the [full list of Radiology servers](Resources/listofservers.html) for a comprehensive list of servers grouped by CPU and GPU power.
+Please refer to the [full list of Radiology servers](Resources/listofservers.md) for a comprehensive list of servers grouped by CPU and GPU power.
 
 
 <br/>
