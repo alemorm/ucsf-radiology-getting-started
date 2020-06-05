@@ -16,4 +16,6 @@ A collection of useful educational resources and tutorials in order to learn abo
 
 ---
 
+[testlink]({{< ref "linuxresources.md" >}})
+
 *This website is being actively maintained and improved. [Please contact me if you experience any issues](mailto:alejandro.moralesmartinez@ucsf.edu)*

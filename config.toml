@@ -1,4 +1,4 @@
-baseurl = "alemorm.github.io/ucsf-radiology-getting-started"
+baseurl = "https://alemorm.github.io/ucsf-radiology-getting-started/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "docs"
