@@ -9,7 +9,7 @@ All of the imaging and medical patient data is located within UCSF Radiology enc
 
 ### List of Radiology servers
 
-Please refer to the [full list of Radiology servers](/materials/listofservers) for a comprehensive list of servers grouped by CPU and GPU resources.
+Please refer to the [full list of Radiology servers](../../materials/listofservers) for a comprehensive list of servers grouped by CPU and GPU resources.
 
 ---
 

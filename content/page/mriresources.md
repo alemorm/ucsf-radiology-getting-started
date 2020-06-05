@@ -19,10 +19,10 @@ Helpful introductions to MRI physics, image formation, image artifacts and termi
 
 - [**Siemens**:](https://www.siemens-healthineers.com/en-us/magnetic-resonance-imaging/magnetom-world/publications/mr-basics)
 
-  - [*MRI Physics*](/materials/magnets_spins_and_resonances-00016929.pdf)
+  - [*MRI Physics*](../../materials/magnets_spins_and_resonances-00016929.pdf)
 
-  - [*MRI Acquisition and Artifacts*](/materials/magnets_flows_and_artifacts-00016930.pdf)
+  - [*MRI Acquisition and Artifacts*](../../materials/magnets_flows_and_artifacts-00016930.pdf)
 
-  - [*MRI Glossary*](/materials/mr_glossary-00016927.pdf)
+  - [*MRI Glossary*](../../materials/mr_glossary-00016927.pdf)
 
-  - [*MRI Acronyms*](/materials/mri_acronyms-00033460.pdf)
+  - [*MRI Acronyms*](../../materials/mri_acronyms-00033460.pdf)

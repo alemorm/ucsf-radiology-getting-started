@@ -69,9 +69,14 @@ pygmentCodeFences = true
 
 [[menu.main]]
     identifier = "Tools"
-    name = "Python"
-    url = "page/pythonresources"
+    name = "Tools"
     weight = 2
+
+[[menu.main]]
+    parent = "Tools"
+    name = "Server Access"
+    url = "page/serveraccessresources"
+    weight = 1
 
 [[menu.main]]
     parent = "Tools"
@@ -81,9 +86,9 @@ pygmentCodeFences = true
 
 [[menu.main]]
     parent = "Tools"
-    name = "Server Access"
-    url = "page/serveraccessresources"
-    weight = 1
+    name = "Python"
+    url = "page/pythonresources"
+    weight = 3
 
 [[menu.main]]
     parent = "Tools"

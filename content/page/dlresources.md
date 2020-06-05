@@ -9,12 +9,12 @@ Here are two popular and powerful machine learning libraries used for deep learn
 
 ### TensorFlow
 
-- Install the latest TensorFlow version in your Python virtual environment by [activating the virtual environment](/page/pythonresources) and running the following commands in the terminal:
+- Install the latest TensorFlow version in your Python virtual environment by [activating the virtual environment](../pythonresources) and running the following commands in the terminal:
   - `conda install tensorflow-gpu -y`
 
 ---
 
 ### PyTorch
 
-- Install the latest PyTorch version in your Python virtual environment by [activating the virtual environment](/page/pythonresources) and running the following command:
+- Install the latest PyTorch version in your Python virtual environment by [activating the virtual environment](../pythonresources) and running the following command:
   - `conda install pytorch torchvision -y`
