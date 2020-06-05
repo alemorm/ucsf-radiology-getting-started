@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>matlab on Getting Started</title>
+    <link>alemorm.github.io/ucsf-radiology-getting-started/tags/matlab/</link>
+    <description>Recent content in matlab on Getting Started</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro)</managingEditor>
+    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro)</webMaster>
+    
+	<atom:link href="alemorm.github.io/ucsf-radiology-getting-started/tags/matlab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>alemorm.github.io/ucsf-radiology-getting-started/page/matlabresources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <guid>alemorm.github.io/ucsf-radiology-getting-started/page/matlabresources/</guid>
+      <description>Matlab Resources The servers have many versions of Matlab.
+Using Matlab is quite simple, all it requires is typing the following command into a terminal in a VNC server:
+ matlab &amp;amp; The default matlab is usually R2015b, although this could change. In order to use a specific version, specify which version you would like to run:  e.g. matlab_2013a &amp;amp;   To check all versions of matlab available in the server, run the following command:  bash -c &amp;quot;compgen -c | grep -E &#39;^matlab.</description>
+    </item>
+    
+  </channel>
+</rss>
