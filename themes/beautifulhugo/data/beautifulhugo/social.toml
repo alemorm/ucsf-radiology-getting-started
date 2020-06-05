@@ -1,0 +1,23 @@
+[[social_icons]]
+id = "email"
+url = "mailto:%s"
+title = "Email me"
+icon = "fas fa-envelope"
+
+[[social_icons]]
+id = "gitlab"
+url = "https://gitlab.com/%s"
+title = "GitLab"
+icon = "fab fa-gitlab"
+
+[[social_icons]]
+id = "github"
+url = "https://github.com/%s"
+title = "GitHub"
+icon = "fab fa-github"
+
+[[social_icons]]
+id = "linkedin"
+url = "https://linkedin.com/in/%s"
+title = "LinkedIn"
+icon = "fab fa-linkedin"

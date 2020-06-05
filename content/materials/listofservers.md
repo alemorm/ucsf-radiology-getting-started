@@ -1,3 +1,8 @@
+---
+title: Server List
+date: 2020-06-04
+---
+
 | **Server Name**  | **Processors**  | **Memory**  |  		**GPU**  
 |     :---:    	 |     :---:  	   |    :---:    |    		 :---:              
 |    acis  	     |        4        |    11.6G    |    

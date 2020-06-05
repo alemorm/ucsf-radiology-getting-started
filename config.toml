@@ -1,0 +1,103 @@
+baseurl = "Alejandro-MoralesMartinez.github.io/ucsf-getting-started/"
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "public"
+title = "Getting Started"
+canonifyurls  = true
+
+DefaultContentLanguage = "en"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+
+
+[Params]
+  subtitle = "UCSF Radiology Getting Started Guide"
+#   logo = "materials/UCSF_sublogo_RadiologyBiomedicalImaging_navy_RGB.png"
+#   logo = "materials/UCSF_sig_navy_RGB.png"
+#   favicon = "img/UCSF_sig_navy_RGB.png"
+#   favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+# [[Params.bigimg]]
+#  src = "materials/UCSF_sig_navy_RGB.png"
+#  src = "img/UCSF_sig_navy_RGB.png"
+#  src = "img/triangle.jpg"
+#  src = "img/UCSF_sublogo_RadiologyBiomedicalImaging_navy_RGB.png"
+#  desc = "Triangle"
+# [[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+# [[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Alejandro"
+  email = "alejandro.moralesmartinez@ucsf.edu"
+  gitlab = "amoralesmartinez"
+  github = "alemorm"
+  linkedin = "alegmoralesm"
+  
+[[menu.main]]
+    identifier = "Education"
+    name = "Education"
+    weight = 1
+
+[[menu.main]]
+    parent = "Education"
+    name = "MRI"
+    url = "page/mriresources"
+    weight = 1
+
+[[menu.main]]
+    parent = "Education"
+    name = "Linux"
+    url = "page/linuxresources"
+    weight = 2
+
+[[menu.main]]
+    parent = "Education"
+    name = "Git"
+    url = "page/gitresources"
+    weight = 3
+
+[[menu.main]]
+    identifier = "Tools"
+    name = "Python"
+    url = "page/pythonresources"
+    weight = 2
+
+[[menu.main]]
+    parent = "Tools"
+    name = "Matlab"
+    url = "page/matlabresources"
+    weight = 2
+
+[[menu.main]]
+    parent = "Tools"
+    name = "Server Access"
+    url = "page/serveraccessresources"
+    weight = 1
+
+[[menu.main]]
+    parent = "Tools"
+    name = "Deep Learning"
+    url = "page/dlresources"
+    weight = 5
+
+[[menu.main]]
+    parent = "Tools"
+    name = "Jupyter"
+    url = "page/jupyterresources"
+    weight = 4
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
