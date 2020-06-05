@@ -1,7 +1,7 @@
-baseurl = "Alejandro-MoralesMartinez.github.io/ucsf-getting-started/"
+baseurl = "alemorm.github.io/ucsf-radiology-getting-started"
 contentdir    = "content"
 layoutdir     = "layouts"
-publishdir    = "public"
+publishdir    = "docs"
 title = "Getting Started"
 canonifyurls  = true
 
@@ -16,8 +16,8 @@ pygmentCodeFences = true
   subtitle = "UCSF Radiology Getting Started Guide"
 #   logo = "materials/UCSF_sublogo_RadiologyBiomedicalImaging_navy_RGB.png"
 #   logo = "materials/UCSF_sig_navy_RGB.png"
-#   favicon = "img/UCSF_sig_navy_RGB.png"
-#   favicon = "img/favicon.ico"
+#   favicon = "materials/UCSF_sig_white_RGB.png"
+  favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = false
