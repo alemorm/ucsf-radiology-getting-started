@@ -1,7 +1,3 @@
-![Build Status](https://gitlab.com/pages/hugo/badges/master/build.svg)
-
----
-
 Example [Hugo] website using GitLab Pages.
 
 Learn more about GitLab Pages at https://pages.gitlab.io and the official
