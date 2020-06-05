@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Getting Started</title>
-    <link>alemorm.github.io/ucsf-radiology-getting-started/categories/</link>
+    <link>https://alemorm.github.io/ucsf-radiology-getting-started/categories/</link>
     <description>Recent content in Categories on Getting Started</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro)</managingEditor>
     <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro)</webMaster>
     
-	<atom:link href="alemorm.github.io/ucsf-radiology-getting-started/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Getting Started</title>
-    <link>alemorm.github.io/ucsf-radiology-getting-started/tags/</link>
+    <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/</link>
     <description>Recent content in Tags on Getting Started</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro)</managingEditor>
     <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro)</webMaster>
     
-	<atom:link href="alemorm.github.io/ucsf-radiology-getting-started/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>deeplearning</title>
-      <link>alemorm.github.io/ucsf-radiology-getting-started/tags/deeplearning/</link>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/deeplearning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
-      <guid>alemorm.github.io/ucsf-radiology-getting-started/tags/deeplearning/</guid>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/tags/deeplearning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>alemorm.github.io/ucsf-radiology-getting-started/tags/git/</link>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
-      <guid>alemorm.github.io/ucsf-radiology-getting-started/tags/git/</guid>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jupyter</title>
-      <link>alemorm.github.io/ucsf-radiology-getting-started/tags/jupyter/</link>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/jupyter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
-      <guid>alemorm.github.io/ucsf-radiology-getting-started/tags/jupyter/</guid>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/tags/jupyter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>alemorm.github.io/ucsf-radiology-getting-started/tags/linux/</link>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
-      <guid>alemorm.github.io/ucsf-radiology-getting-started/tags/linux/</guid>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>matlab</title>
-      <link>alemorm.github.io/ucsf-radiology-getting-started/tags/matlab/</link>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/matlab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
-      <guid>alemorm.github.io/ucsf-radiology-getting-started/tags/matlab/</guid>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/tags/matlab/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MRI</title>
-      <link>alemorm.github.io/ucsf-radiology-getting-started/tags/mri/</link>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/mri/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
-      <guid>alemorm.github.io/ucsf-radiology-getting-started/tags/mri/</guid>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/tags/mri/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>alemorm.github.io/ucsf-radiology-getting-started/tags/python/</link>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
-      <guid>alemorm.github.io/ucsf-radiology-getting-started/tags/python/</guid>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>alemorm.github.io/ucsf-radiology-getting-started/tags/ssh/</link>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/ssh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
-      <guid>alemorm.github.io/ucsf-radiology-getting-started/tags/ssh/</guid>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vnc</title>
-      <link>alemorm.github.io/ucsf-radiology-getting-started/tags/vnc/</link>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/vnc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
-      <guid>alemorm.github.io/ucsf-radiology-getting-started/tags/vnc/</guid>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/tags/vnc/</guid>
       <description></description>
     </item>
     
