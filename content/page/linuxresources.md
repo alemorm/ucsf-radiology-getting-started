@@ -20,7 +20,5 @@ The radiology servers are running a Linux distribution called Red Hat Enterprise
 
 ---
 
-[testlink]({{< ref "matlabresources.md" >}})
-
 - **MIT Missing Semester**
   - For a more advanced dive into these concepts, the [MIT Missing Semester](https://missing.csail.mit.edu/) is another great resource to learn about linux.

@@ -9,7 +9,7 @@ All of the imaging and medical patient data is located within UCSF Radiology enc
 
 ### List of Radiology servers
 
-Please refer to the [full list of Radiology servers](https://git.radiology.ucsf.edu/amoralesmartinez/ucsf-getting-started/-/blob/6120498a5f7c45429992b1292e77f0a6f5d2c950/content/materials/listofservers.md) for a comprehensive list of servers grouped by CPU and GPU resources.
+Please refer to the [full list of Radiology servers (requires UCSF login)](https://git.radiology.ucsf.edu/amoralesmartinez/ucsf-getting-started/-/blob/6120498a5f7c45429992b1292e77f0a6f5d2c950/content/materials/listofservers.md) for a comprehensive list of servers grouped by CPU and GPU resources.
 
 ---
 
@@ -21,7 +21,7 @@ Here are the two main ways to access the servers:
 
 - Open a terminal and type the following:
   - `ssh username@servername.radiology.ucsf.edu -L 9XXX:localhost:9XXX`
-  - For the above command make sure to replace the `username` with your own, the  `servername` with any of the [listed server names](https://git.radiology.ucsf.edu/amoralesmartinez/ucsf-getting-started/-/blob/6120498a5f7c45429992b1292e77f0a6f5d2c950/content/materials/listofservers.md) and the `9XXX` with a number above `9020`
+  - For the above command make sure to replace the `username` with your own, the  `servername` with any of the [listed server names (requires UCSF login)](https://git.radiology.ucsf.edu/amoralesmartinez/ucsf-getting-started/-/blob/6120498a5f7c45429992b1292e77f0a6f5d2c950/content/materials/listofservers.md) and the `9XXX` with a number above `9020`
     - e.g. `ssh jdoe@diffusion.radiology.ucsf.edu -L 9032:localhost:9032`
   - There will be a prompt for your UCSF password  
 
@@ -44,7 +44,7 @@ Unlike SSH, VNC allows you to access a virtual display of the servers. This lets
   - `myvncserver`
   - Towards the very bottom of the output, where it says `New desktop is servername.radiology.ucsf.edu:7`, take note of the last number as that will be the display number you will need to access the VNC server.
 
-![image](/support/vncserversample.png "Sample Image")
+![image](/materials/vncserversample.png "Sample Image")
 
 - Open VNC Viewer and type the server information in the form that was written in that last line under 'VNC Server'
   - e.g. `bone-vm1.radiology.ucsf.edu:7`

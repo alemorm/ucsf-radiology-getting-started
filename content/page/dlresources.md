@@ -9,7 +9,7 @@ Here are two popular and powerful machine learning libraries used for deep learn
 
 ### TensorFlow
 
-- Install the latest TensorFlow version in your Python virtual environment by [activating the virtual environment](../pythonresources) and running the following commands in the terminal:
+- Install the latest TensorFlow version in your Python virtual environment by [activating the virtual environment](/pages/pythonresources) and running the following commands in the terminal:
   - `conda install tensorflow-gpu -y`
 
 ---
