@@ -1,4 +1,4 @@
-# Decription
+# Description
 
 A collection of useful educational resources and tutorials in order to learn about MRI imaging, access the UCSF Radiology servers, set up a working python virtual environment and access tools such as Jupyter Lab, Matlab, TensorFlow and PyTorch.
 
