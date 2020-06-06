@@ -92,15 +92,15 @@ pygmentCodeFences = true
 
 [[menu.main]]
     parent = "Tools"
-    name = "Deep Learning"
-    url = "page/dlresources"
-    weight = 5
-
-[[menu.main]]
-    parent = "Tools"
     name = "Jupyter"
     url = "page/jupyterresources"
     weight = 4
+
+[[menu.main]]
+    parent = "Tools"
+    name = "Deep Learning"
+    url = "page/dlresources"
+    weight = 5
 
 [[menu.main]]
     name = "Tags"
