@@ -26,7 +26,7 @@ Here are the two main ways to access the servers:
 
 #### PC users
 
-- Use WSL, PuTTY, Cygwin or any other SSH service:
+- Use [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10), [PuTTY](https://www.ssh.com/ssh/putty/download), [Cygwin](https://cygwin.com/install.html) or any other SSH service:
   - Write `servername.radiology.ucsf.edu` as the host name
   - Specify the local port forwarding, using the same number `9XXX`, higher than `9020`, both the source port and the destination port
   - There will be a prompt for your UCSF password
