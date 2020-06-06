@@ -49,4 +49,4 @@ The servers have several versions of python, with the default version being pyth
 
 ### Advanced: Conda options
 
-[Refer to this conda cheatsheet for more conda options](../../materials/conda-cheatsheet.pdf)
+[Refer to this conda cheatsheet for more conda options](/materials/conda-cheatsheet.pdf)

@@ -126,7 +126,7 @@
         <h2 id="radiology-server-access">Radiology Server Access</h2>
 <p>All of the imaging and medical patient data is located within UCSF Radiology encrypted Linux servers. Here is how to access them:</p>
 <h3 id="list-of-radiology-servers">List of Radiology servers</h3>
-<p>Please refer to the <a href="https://git.radiology.ucsf.edu/amoralesmartinez/ucsf-getting-started/-/blob/6120498a5f7c45429992b1292e77f0a6f5d2c950/content/materials/listofservers.md">full list of Radiology servers</a> for a comprehensive list of servers grouped by CPU and GPU resources.</p>
+<p>Please refer to the <a href="https://git.radiology.ucsf.edu/amoralesmartinez/ucsf-getting-started/-/blob/6120498a5f7c45429992b1292e77f0a6f5d2c950/content/materials/listofservers.md">full list of Radiology servers (requires UCSF login)</a> for a comprehensive list of servers grouped by CPU and GPU resources.</p>
 <hr>
 <p>Here are the two main ways to access the servers:</p>
 <h3 id="ssh">SSH</h3>
@@ -135,11 +135,7 @@
 <li>Open a terminal and type the following:
 <ul>
 <li><code>ssh username@servername.radiology.ucsf.edu -L 9XXX:localhost:9XXX</code></li>
-<li>For the above command make sure to replace the <code>username</code> with your own, the  <code>servername</code> with any of the <a href="https://git.radiology.ucsf.edu/amoralesmartinez/ucsf-getting-started/-/blob/6120498a5f7c45429992b1292e77f0a6f5d2c950/content/materials/listofservers.md">listed server names</a> and the <code>9XXX</code> with a number above <code>9020</code>
-<ul>
-<li>e.g. <code>ssh jdoe@diffusion.radiology.ucsf.edu -L 9032:localhost:9032</code></li>
-</ul>
-</li>
+<li>For the above command make sure to replace the <code>username</code> with your own, the  <code>servername</code> with any of the <a href="https://git.radiology.ucsf.edu/amoralesmartinez/ucsf-getting-started/-/blob/6120498a5f7c45429992b1292e77f0a6f5d2c950/content/materials/listofservers.md">listed server names (requires UCSF login)</a> and the <code>9XXX</code> with a number above <code>9020</code></li>
 <li>There will be a prompt for your UCSF password</li>
 </ul>
 </li>
@@ -148,11 +144,7 @@
 <ul>
 <li>Use WSL, PuTTY, Cygwin or any other SSH service:
 <ul>
-<li>Write <em>servername.radiology.ucsf.edu</em> as the host name
-<ul>
-<li>e.g. <code>titan.radiology.ucsf.edu</code></li>
-</ul>
-</li>
+<li>Write <em>servername.radiology.ucsf.edu</em> as the host name</li>
 <li>Specify the local port forwarding, using the same number <code>9XXX</code>, higher than <code>9020</code>, both the source port and the destination port</li>
 <li>There will be a prompt for your UCSF password</li>
 </ul>
@@ -170,11 +162,11 @@
 </ul>
 </li>
 </ul>
-<p><img src="https://alemorm.github.io/ucsf-radiology-getting-started/support/vncserversample.png" alt="image" title="Sample Image"></p>
+<p><img src="https://alemorm.github.io/ucsf-radiology-getting-started/materials/vncserversample.png" alt="image" title="Sample Image"></p>
 <ul>
 <li>Open VNC Viewer and type the server information in the form that was written in that last line under &lsquo;VNC Server&rsquo;
 <ul>
-<li>e.g. <code>bone-vm1.radiology.ucsf.edu:7</code></li>
+<li>e.g. <code>servername.radiology.ucsf.edu:7</code></li>
 <li>You will be prompted for your UCSF username and password.</li>
 </ul>
 </li>

@@ -16,5 +16,5 @@ Here are two popular and powerful machine learning libraries used for deep learn
 
 ### PyTorch
 
-- Install the latest PyTorch version in your Python virtual environment by [activating the virtual environment](../pythonresources) and running the following command:
+- Install the latest PyTorch version in your Python virtual environment by [activating the virtual environment](/pages/pythonresources) and running the following command:
   - `conda install pytorch torchvision -y`

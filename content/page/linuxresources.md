@@ -16,7 +16,7 @@ The radiology servers are running a Linux distribution called Red Hat Enterprise
 ---
 
 - **Linux cheatsheet**
-  - [A collection of useful Linux commands](../../materials/linux-cheatsheet.pdf)
+  - [A collection of useful Linux commands](/materials/linux-cheatsheet.pdf)
 
 ---
 
