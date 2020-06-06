@@ -33,11 +33,13 @@ Using Matlab is quite simple, all it requires is typing the following command in
 
 #### Useful 3D visualization app in Matlab
 
-[https://github.com/imagineStudios/Imagine-Legacy](https://github.com/imagineStudios/Imagine-Legacy)
+[Imagine](https://github.com/imagineStudios/Imagine-Legacy) is an useful visualization tool for 3D images, use the following commands:
+- `cd ~ && git clone https://github.com/imagineStudios/Imagine-Legacy.git`
 
-Clone or download the repository above and the add the directory where it was cloned or downloaded to your Matlab path to run it from the command window with the following command:
+From the matlab command window, use the following commands:
 
+- `addpath ~/imagine`
 - `imagine2(3D_data)`
-- Replace *3D_data* with your actual 3D data structure
+  - Replace `3D_data` with your actual 3D data structure
 
 ---
