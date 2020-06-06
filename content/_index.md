@@ -6,13 +6,13 @@ A collection of useful educational resources and tutorials in order to learn abo
 
 ### Table of contents
 
- 1. #### [Linux Basics](page/linuxresources)
- 2. #### [Git Basics](page/gitresources)
- 3. #### [Server Access](page/serveraccessresources)
- 4. #### [Matlab](page/matlabresources)
- 5. #### [Python](page/pythonresources)
- 6. #### [Jupyter](page/jupyterresources)
- 7. #### [Deep Learning](page/dlresources)
+ 1. #### [Linux Basics](/page/linuxresources)
+ 2. #### [Git Basics](/page/gitresources)
+ 3. #### [Server Access](/page/serveraccessresources)
+ 4. #### [Matlab](/page/matlabresources)
+ 5. #### [Python](/page/pythonresources)
+ 6. #### [Jupyter](/page/jupyterresources)
+ 7. #### [Deep Learning](/page/dlresources)
 
 ---
 

@@ -3,7 +3,7 @@ subtitle: "MRI Educational Resources"
 tags: [MRI]
 ---
 
-### MRI Resources 
+## MRI Resources 
 
 Helpful introductions to MRI physics, image formation, image artifacts and terminology.
 

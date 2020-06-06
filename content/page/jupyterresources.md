@@ -3,14 +3,14 @@ subtitle: "Jupyter Tool Resources"
 tags: [jupyter, python]
 ---
 
-### Jupyter Resources
+## Jupyter Resources
 
 One of the simplest and most versatile ways to use python is through Jupyter Lab. In order to get it working within your virtual environment, follow these steps:
 
 #### Installation
 
-- [Follow the earlier steps to SSH into one of the servers](/pages/sshresources)
-- [Activate your virtual environment](/pages/pythonresources)
+- [Follow the earlier steps to SSH into one of the servers](/page/serveraccessresources)
+- [Activate your virtual environment](/page/pythonresources)
 - Run the following commands:
   - If you created an empty environment, use the following command
   first:

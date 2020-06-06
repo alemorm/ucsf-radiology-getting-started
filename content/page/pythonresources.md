@@ -3,7 +3,7 @@ subtitle: "Python Tool Resources"
 tags: [python]
 ---
 
-### Python Resources 
+## Python Resources 
 
 The servers have several versions of python, with the default version being python 2.7. The best practice when coding in python is to set up a virtual environment with the libraries you will be using. To do this, follow these steps:
 

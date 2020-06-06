@@ -3,9 +3,9 @@ subtitle: "Linux Educational Resources"
 tags: [linux]
 ---
 
-### Linux Resources
+## Linux Resources
 
-The radiology servers are running a Linux distribution called Red Hat Enterprise Linux (current version is 7) and therefore it is highly recommended to get familiar with Linux. 
+The radiology servers are running a Linux distribution called Red Hat Enterprise Linux (current version is 7) and therefore it is highly recommended to get familiar with Linux.
 
 *Note: Keep in mind that the servers run tcsh by default, which is very similar to bash with some slight differences. You can type `bash` into any terminal to start using bash.*
 
