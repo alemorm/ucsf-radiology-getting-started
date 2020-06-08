@@ -40,7 +40,7 @@ Unlike SSH, VNC allows you to access a virtual display of the servers. This lets
 - Download and install [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/).
 - Once installed you will need to SSH to the server to which you will VNC into and type the following command into a terminal:
   - `myvncserver`
-  - Towards the very bottom of the output, where it says `New desktop is servername.radiology.ucsf.edu:7`, take note of the last number as that will be the display number you will need to access the VNC server.
+  - Towards the bottom of the output, where it says `New desktop is servername.radiology.ucsf.edu:7`, take note of the last number as that will be the display number you will need to access the VNC server.
 
 ![image](/materials/vncserversample.png "Sample Image")
 

@@ -131,7 +131,7 @@
 <li>
 <p>Use the following command to initialize the latest conda in the servers:</p>
 <ul>
-<li><code> `where conda | tail -n1 | xargs readlink | sed -E 's:da.+/b:da3-edge/b:'` init tcsh bash</code></li>
+<li><code> `which conda | sed -E 's:.*[ ](/.*l7).+:\1/\*/\*/\*3-edge/bin/conda:'` init bash tcsh</code></li>
 <li>Close the current terminal and open a new one for the changes to take place</li>
 </ul>
 </li>

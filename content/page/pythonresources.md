@@ -12,7 +12,7 @@ The servers have several versions of python, with the default version being pyth
 ### Set up a virtual environment
 
 - Use the following command to initialize the latest conda in the servers:
-  - `` `where conda | tail -n1 | xargs readlink | sed -E 's:da.+/b:da3-edge/b:'` init tcsh bash``
+  - `` `which conda | sed -E 's:.*[ ](/.*l7).+:\1/\*/\*/\*3-edge/bin/conda:'` init bash tcsh``
   - Close the current terminal and open a new one for the changes to take place
 
 - Use the following commands to set up the directory where the python environments and packages will be stored:
