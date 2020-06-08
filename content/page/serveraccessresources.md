@@ -26,8 +26,8 @@ Here are the two main ways to access the servers:
 
 #### PC users
 
-- Use [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10), [PuTTY](https://www.ssh.com/ssh/putty/download), [Cygwin](https://cygwin.com/install.html) or any other SSH service:
-  - Write `servername.radiology.ucsf.edu` as the host name
+- Use [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10), [PuTTY](https://www.ssh.com/ssh/putty/download), [Cygwin](https://cygwin.com/install.html) or any other SSH tool:
+  - Use `servername.radiology.ucsf.edu` as the host name
   - Specify the local port forwarding, using the same number `9XXX`, higher than `9020`, both the source port and the destination port
   - There will be a prompt for your UCSF password
 
@@ -47,6 +47,8 @@ Unlike SSH, VNC allows you to access a virtual display of the servers. This lets
 - Open VNC Viewer and type the server information in the following form:
   - e.g. `servername.radiology.ucsf.edu:7`
   - You will be prompted for your UCSF username and password.
+
+---
 
 #### Advanced
 
