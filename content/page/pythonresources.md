@@ -22,20 +22,17 @@ The servers have several versions of python, with the default version being pyth
 
 > **Note: Your home directory only has 10GB of memory so it is recommended to pick a directory in a bigger filesystem. Please ask your colleagues or supervisor about which specific directories are allocated for your group.**
 
-- Follow these specific instructions depending on which python version you would like to use:
+- Use the following command to create a new [Anaconda (includes numpy, scipy, pandas, matplotlib, jupyter, etc)](https://www.anaconda.com/open-source) python environment named `environmentname` (this can be any word without spaces):
 
   - #### Python 2
-
-    - Use the following command to create a new anaconda python 2   environment named `environmentname` (this can be any word without   spaces):
-      - `conda create -n environmentname python=2.7 anaconda -y`
-      - To create an empty python environment, so you can add your own   packages, just remove `anaconda` from the above command.
+    - `conda create -n environmentname python=2.7 anaconda -y`
 
   - #### Python 3
+    - `conda create -n environmentname python=3.X  anaconda -y`
+      - The python 3 versions available are `3.5`, `3.6`, `3.7`, and `3.8`
 
-    - Use the following command to create a new anaconda python 3   environment named `environmentname` (this can be any word without   spaces):
-      - `conda create -n environmentname python=3.X  anaconda -y`
-      - The python 3 versions in the servers are currently *3.5, 3.6, 3.  7, and 3.8*
-      - To create an empty python environment, so you can add your own   packages, just remove `anaconda` from the above command.
+- To create an empty python environment, so you can add your own packages, just remove `anaconda` from the above command and install your own packages with:
+  - `conda install packagename`
 
 ---
 

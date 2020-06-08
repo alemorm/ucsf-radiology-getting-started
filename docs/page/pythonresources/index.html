@@ -149,31 +149,30 @@
 </blockquote>
 <ul>
 <li>
-<p>Follow these specific instructions depending on which python version you would like to use:</p>
+<p>Use the following command to create a new <a href="https://www.anaconda.com/open-source">Anaconda (includes numpy, scipy, pandas, matplotlib, jupyter, etc)</a> python environment named <code>environmentname</code> (this can be any word without spaces):</p>
 <ul>
 <li>
 <h4 id="python-2">Python 2</h4>
 <ul>
-<li>Use the following command to create a new anaconda python 2   environment named <code>environmentname</code> (this can be any word without   spaces):
-<ul>
 <li><code>conda create -n environmentname python=2.7 anaconda -y</code></li>
-<li>To create an empty python environment, so you can add your own   packages, just remove <code>anaconda</code> from the above command.</li>
-</ul>
-</li>
 </ul>
 </li>
 <li>
 <h4 id="python-3">Python 3</h4>
 <ul>
-<li>Use the following command to create a new anaconda python 3   environment named <code>environmentname</code> (this can be any word without   spaces):
+<li><code>conda create -n environmentname python=3.X  anaconda -y</code>
 <ul>
-<li><code>conda create -n environmentname python=3.X  anaconda -y</code></li>
-<li>The python 3 versions in the servers are currently <em>3.5, 3.6, 3.  7, and 3.8</em></li>
-<li>To create an empty python environment, so you can add your own   packages, just remove <code>anaconda</code> from the above command.</li>
+<li>The python 3 versions available are <code>3.5</code>, <code>3.6</code>, <code>3.7</code>, and <code>3.8</code></li>
 </ul>
 </li>
 </ul>
 </li>
+</ul>
+</li>
+<li>
+<p>To create an empty python environment, so you can add your own packages, just remove <code>anaconda</code> from the above command and install your own packages with:</p>
+<ul>
+<li><code>conda install packagename</code></li>
 </ul>
 </li>
 </ul>
