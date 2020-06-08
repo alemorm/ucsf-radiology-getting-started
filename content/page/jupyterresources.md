@@ -7,7 +7,7 @@ tags: [jupyter, python]
 
 One of the simplest and most versatile ways to use python is through Jupyter Lab. In order to get it working within your virtual environment, follow these steps:
 
-#### Installation
+### Installation
 
 - [Follow the earlier steps to SSH into one of the servers](/page/serveraccessresources)
 - [Activate your virtual environment](/page/pythonresources)

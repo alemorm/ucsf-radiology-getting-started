@@ -31,9 +31,10 @@ Using Matlab is quite simple, all it requires is typing the following command in
 
 ---
 
-#### Useful 3D visualization app in Matlab
+### Useful 3D visualization app in Matlab
 
 [Imagine](https://github.com/imagineStudios/Imagine-Legacy) is an useful visualization tool for 3D images, use the following commands:
+
 - `cd ~ && git clone https://github.com/imagineStudios/Imagine-Legacy.git`
 
 From the matlab command window, use the following commands:
