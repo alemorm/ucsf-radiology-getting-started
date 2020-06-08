@@ -4,16 +4,18 @@ A collection of useful educational resources and tutorials in order to learn abo
 
 ---
 
+Depending on your experience and knowledge level, here are some recommended ways to approach the resources:
+
 ### Table of contents
 
- 1. #### [MRI Basics](/page/mriresources)
- 2. #### [Linux Basics](/page/linuxresources)
- 3. #### [Git Basics](/page/gitresources)
- 4. #### [Server Access](/page/serveraccessresources)
- 5. #### [Matlab](/page/matlabresources)
- 6. #### [Python](/page/pythonresources)
- 7. #### [Jupyter](/page/jupyterresources)
- 8. #### [Deep Learning](/page/dlresources)
+ 1. #### [MRI Basics](/page/mriresources) <span style="color:blue"> (Optional) text</span>
+ 2. #### [Linux Basics](/page/linuxresources) (Required)
+ 3. #### [Git Basics](/page/gitresources) (Optional)
+ 4. #### [Server Access](/page/serveraccessresources) (Required)
+ 5. #### [Matlab](/page/matlabresources) (Optional)
+ 6. #### [Python](/page/pythonresources) (Required)
+ 7. #### [Jupyter](/page/jupyterresources) (Optional)
+ 8. #### [Deep Learning](/page/dlresources) (Optional)
 
 ---
 
