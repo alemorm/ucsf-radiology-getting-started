@@ -54,4 +54,4 @@ The servers have several versions of python, with the default version being pyth
 [Refer to this conda cheatsheet for more conda options](/materials/conda-cheatsheet.pdf)
 
 - SCS Python Tutorial
-[Refer to the Scientific Computing Services official tutorial for more advanced options](https://wiki.radiology.ucsf.edu/bin/view/SCS/Tutorials/PythonIntro/)
+[Refer to the Scientific Computing Services (SCS) official tutorial for more advanced options](https://wiki.radiology.ucsf.edu/bin/view/SCS/Tutorials/PythonIntro/)

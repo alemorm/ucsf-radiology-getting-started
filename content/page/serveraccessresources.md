@@ -47,3 +47,8 @@ Unlike SSH, VNC allows you to access a virtual display of the servers. This lets
 - Open VNC Viewer and type the server information in the following form:
   - e.g. `servername.radiology.ucsf.edu:7`
   - You will be prompted for your UCSF username and password.
+
+#### Advanced
+
+- SCS Python Tutorial
+[Refer to the Scientific Computing Services (SCS) official tutorial for more advanced options](https://wiki.radiology.ucsf.edu/bin/view/SCS/Tutorials/RealVNCAdvanced/)
