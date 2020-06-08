@@ -1,4 +1,4 @@
-# ![testimage](/materials/UCSF_sublogo_RadiologyBiomedicalImaging_navy_RGB.png)
+# ![testimage](/materials/UCSF_sublogo_RadiologyBiomedicalImaging_navy_RGB.png "UCSF Logo")
 
 ---
 

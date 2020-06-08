@@ -124,8 +124,7 @@
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
         <h2 id="matlab-resources">Matlab Resources</h2>
-<p>The servers have many versions of Matlab.</p>
-<p>Using Matlab is quite simple, all it requires is typing the following command into a terminal in a VNC server:</p>
+<p>The servers have many versions of Matlab. Using Matlab is quite simple, all it requires is typing the following command into a terminal in a VNC server:</p>
 <ul>
 <li><code>matlab &amp;</code></li>
 <li>The default matlab is usually R2015b, although this could change. In order to use a specific version, specify which version you would like to run:
@@ -133,26 +132,9 @@
 <li>e.g. <code>matlab_2013a &amp;</code></li>
 </ul>
 </li>
-<li>To check all versions of matlab available in the server, run the following command:
+<li>To check all versions of matlab available in the server, run the following command in a terminal:
 <ul>
 <li><code>bash -c &quot;compgen -c | grep -E '^matlab.*[ab]' | sort&quot;</code></li>
-<li>At the time of this writing (6/4/2020) the available versions are:
-<ul>
-<li><code>matlab_2006a</code></li>
-<li><code>matlab_2007a</code></li>
-<li><code>matlab_2011a</code></li>
-<li><code>matlab_2012a</code></li>
-<li><code>matlab_2012b</code></li>
-<li><code>matlab_2013a</code></li>
-<li><code>matlab_2014b</code></li>
-<li><code>matlab_2015b</code></li>
-<li><code>matlab_2016b</code></li>
-<li><code>matlab_2017a</code></li>
-<li><code>matlab_2018a</code></li>
-<li><code>matlab_2019a</code></li>
-<li><code>matlab_latest (points to matlab_2019a)</code></li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
@@ -165,7 +147,7 @@
 <p>From the matlab command window, use the following commands:</p>
 <ul>
 <li><code>addpath ~/imagine</code></li>
-<li><code>imagine2(3D_data)</code>
+<li><code>figure; imagine2(3D_data)</code>
 <ul>
 <li>Replace <code>3D_data</code> with your actual 3D data structure</li>
 </ul>

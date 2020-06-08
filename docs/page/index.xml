@@ -18,7 +18,8 @@
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/dlresources/</guid>
       <description>Deep Learning Resources Here are two popular and powerful machine learning libraries used for deep learning:
-TensorFlow  Install the latest TensorFlow version in your Python virtual environment by activating the virtual environment and running the following commands in the terminal:  conda install tensorflow-gpu -y     PyTorch  Install the latest PyTorch version in your Python virtual environment by activating the virtual environment and running the following command:  conda install pytorch torchvision -y    </description>
+ Activate your Python virtual environment before running the following commands in the terminal:
+ TensorFlow  Install the latest TensorFlow version:  conda install tensorflow-gpu -y     PyTorch  Install the latest PyTorch version:  conda install pytorch torchvision -y    </description>
     </item>
     
     <item>
@@ -38,7 +39,7 @@ TensorFlow  Install the latest TensorFlow version in your Python virtual environ
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/jupyterresources/</guid>
       <description>Jupyter Resources One of the simplest and most versatile ways to use python is through Jupyter Lab. In order to get it working within your virtual environment, follow these steps:
-Installation  Follow the earlier steps to SSH into one of the servers Activate your virtual environment Run the following commands:  If you created an empty environment, use the following command first:  conda install jupyterlab -y   jupyter lab --no-browser --port 9XXX --notebook-dir=/  Replace 9XXX with the number used for the SSH port forwarding  e.</description>
+Installation  Follow the earlier steps to access terminal in one of the servers Activate your virtual environment Run the following commands:  If you created an empty environment, use the following command first:  conda install jupyterlab -y   jupyter lab --no-browser --port 9XXX --notebook-dir=/  Replace 9XXX with the number used for the SSH port forwarding  e.</description>
     </item>
     
     <item>
@@ -58,9 +59,8 @@ Installation  Follow the earlier steps to SSH into one of the servers Activate y
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/matlabresources/</guid>
-      <description>Matlab Resources The servers have many versions of Matlab.
-Using Matlab is quite simple, all it requires is typing the following command into a terminal in a VNC server:
- matlab &amp;amp; The default matlab is usually R2015b, although this could change. In order to use a specific version, specify which version you would like to run:  e.g. matlab_2013a &amp;amp;   To check all versions of matlab available in the server, run the following command:  bash -c &amp;quot;compgen -c | grep -E &#39;^matlab.</description>
+      <description>Matlab Resources The servers have many versions of Matlab. Using Matlab is quite simple, all it requires is typing the following command into a terminal in a VNC server:
+ matlab &amp;amp; The default matlab is usually R2015b, although this could change. In order to use a specific version, specify which version you would like to run:  e.g. matlab_2013a &amp;amp;   To check all versions of matlab available in the server, run the following command in a terminal:  bash -c &amp;quot;compgen -c | grep -E &#39;^matlab.</description>
     </item>
     
     <item>
