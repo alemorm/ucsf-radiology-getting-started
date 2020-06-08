@@ -50,5 +50,4 @@ Unlike SSH, VNC allows you to access a virtual display of the servers. This lets
 
 #### Advanced
 
-- SCS Python Tutorial
-[Refer to the Scientific Computing Services (SCS) official tutorial for more advanced options](https://wiki.radiology.ucsf.edu/bin/view/SCS/Tutorials/RealVNCAdvanced/)
+- [Refer to the Scientific Computing Services (SCS) official python tutorial for more advanced options](https://wiki.radiology.ucsf.edu/bin/view/SCS/Tutorials/RealVNCAdvanced/)
