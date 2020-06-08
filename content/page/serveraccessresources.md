@@ -9,7 +9,7 @@ All of the imaging and medical patient data is located within UCSF Radiology enc
 
 ### List of Radiology servers
 
-Please refer to the [full list of Radiology servers (requires UCSF login)](https://git.radiology.ucsf.edu/amoralesmartinez/ucsf-getting-started/-/blob/6120498a5f7c45429992b1292e77f0a6f5d2c950/content/materials/listofservers.md) for a comprehensive list of servers grouped by CPU and GPU resources.
+Please refer to the [full list of Radiology servers (requires UCSF login)](https://git.radiology.ucsf.edu/amoralesmartinez/ucsf-radiology-getting-started/-/blob/e7fd1b024c14f8e15713db1e7431efdaf8faa970/content/materials/listofservers.md) for a comprehensive list of servers grouped by CPU and GPU resources.
 
 ---
 
@@ -21,7 +21,7 @@ Here are the two main ways to access the servers:
 
 - Open a terminal and type the following:
   - `ssh username@servername.radiology.ucsf.edu -L 9XXX:localhost:9XXX`
-  - For the above command make sure to replace the `username` with your own, the  `servername` with any of the [listed server names (requires UCSF login)](https://git.radiology.ucsf.edu/amoralesmartinez/ucsf-getting-started/-/blob/6120498a5f7c45429992b1292e77f0a6f5d2c950/content/materials/listofservers.md) and the `9XXX` with a number above `9020`
+  - For the above command make sure to replace the `username` with your own, the  `servername` with any of the [listed server names (requires UCSF login)](https://git.radiology.ucsf.edu/amoralesmartinez/ucsf-radiology-getting-started/-/blob/e7fd1b024c14f8e15713db1e7431efdaf8faa970/content/materials/listofservers.md) and the `9XXX` with a number above `9020`
   - There will be a prompt for your UCSF password  
 
 #### PC users
