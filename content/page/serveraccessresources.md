@@ -42,7 +42,7 @@ Unlike SSH, VNC allows you to access a virtual display of the servers. This lets
   - `myvncserver`
   - Towards the bottom of the output, take note of the last number as that will be the display number you will need to access the VNC server. Shown as `radiology.ucsf.edu:7` highlighted below.
 
-![image](/content/materials/vncserversample.png "VNC Output")
+![image](/materials/vncserversample.png "VNC Output")
 
 - Open VNC Viewer and type the server information in the following form:
   - e.g. `servername.radiology.ucsf.edu:7`
