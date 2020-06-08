@@ -8,7 +8,7 @@ Depending on your experience and knowledge level, here are some recommended ways
 
 ### Table of contents
 
- 1. #### [MRI Basics](/page/mriresources) <span style="color:green">some (Optional) text</span>
+ 1. #### [MRI Basics](/page/mriresources) (Optional)
  2. #### [Linux Basics](/page/linuxresources) (Required)
  3. #### [Git Basics](/page/gitresources) (Optional)
  4. #### [Server Access](/page/serveraccessresources) (Required)
@@ -18,7 +18,5 @@ Depending on your experience and knowledge level, here are some recommended ways
  8. #### [Deep Learning](/page/dlresources) (Optional)
 
 ---
-
-$\color{#FF0000}{testingred}$
 
 *This website is being actively maintained and improved. [Please contact me if you experience any issues](mailto:alejandro.moralesmartinez@ucsf.edu)*
