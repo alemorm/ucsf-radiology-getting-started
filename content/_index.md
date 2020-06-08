@@ -19,4 +19,6 @@ Depending on your experience and knowledge level, here are some recommended ways
 
 ---
 
+$\color{#FF0000}{testingred}$
+
 *This website is being actively maintained and improved. [Please contact me if you experience any issues](mailto:alejandro.moralesmartinez@ucsf.edu)*
