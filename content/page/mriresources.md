@@ -21,8 +21,8 @@ Helpful introductions to MRI physics, image formation, image artifacts and termi
 
   - [*MRI Physics*](/materials/magnets_spins_and_resonances-00016929.pdf)
 
-  - [*MRI Acquisition and Artifacts*](/materials/magnets_flows_and_artifacts-00016930.pdf)
+  - [*MRI Acquisition and Artifacts*](/content/materials/magnets_flows_and_artifacts-00016930.pdf)
 
-  - [*MRI Glossary*](/materials/mr_glossary-00016927.pdf)
+  - [*MRI Glossary*](/content/materials/mr_glossary-00016927.pdf)
 
-  - [*MRI Acronyms*](/materials/mri_acronyms-00033460.pdf)
+  - [*MRI Acronyms*](/content/materials/mri_acronyms-00033460.pdf)
