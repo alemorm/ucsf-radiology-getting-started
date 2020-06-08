@@ -48,8 +48,10 @@ The servers have several versions of python, with the default version being pyth
 
 ---
 
-### Advanced
+### [Conda CheatSheet](/materials/conda-cheatsheet.pdf)
 
-- [Conda cheatsheet for more conda options](/materials/conda-cheatsheet.pdf)
+---
+
+### Advanced
 
 - [Refer to the Scientific Computing Services (SCS) official vnc tutorial for more advanced options (requires UCSF login)](https://wiki.radiology.ucsf.edu/bin/view/SCS/Tutorials/PythonIntro/)
