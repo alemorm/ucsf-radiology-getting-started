@@ -9,25 +9,30 @@ The servers have several versions of python, with the default version being pyth
 
 ---
 
+box-
+
 ### Set up a virtual environment
 
 - Use the following command to initialize the latest conda in the servers:
   - `/netopt/rhel7/versions/python/Anaconda3-edge/bin/conda init tcsh bash`
   - Close the current terminal and open a new one for the changes to take place
-- Use the following commands to set up the directory where the python environments and packages will be stored: (**Note:** *Your home directory only has 10G of memory so it is recommended to pick a directory in a bigger filesystem such as /data/ or /working/. Please ask your colleagues or supervisor about which specific directories are allocated for your group.*)
+
+> **Note:** *Your home directory only has 10GB of memory so it is recommended to pick a directory in a bigger filesystem. Please ask your colleagues or supervisor about which specific directories are allocated for your group.*
+
+- Use the following commands to set up the directory where the python environments and packages will be stored: 
   - `mkdir /path/to/save/dir`
   - `conda config --append envs_dirs /path/to/save/dir/envs`
   - `conda config --append pkgs_dirs /path/to/save/dir/pkgs`
 - Follow these specific instructions depending on which python version you would like to use:
 
   - #### Python 2
-  
+
     - Use the following command to create a new anaconda python 2   environment named `environmentname` (this can be any word without   spaces):
       - `conda create -n environmentname python=2.7 anaconda -y`
       - To create an empty python environment, so you can add your own   packages, just remove `anaconda` from the above command.
-  
+
   - #### Python 3
-  
+
     - Use the following command to create a new anaconda python 3   environment named `environmentname` (this can be any word without   spaces):
       - `conda create -n environmentname python=3.X  anaconda -y`
       - The python 3 versions in the servers are currently *3.5, 3.6, 3.  7, and 3.8*

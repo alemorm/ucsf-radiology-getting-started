@@ -4,6 +4,7 @@ layoutdir     = "layouts"
 publishdir    = "docs"
 title = "Getting Started"
 canonifyurls  = true
+enableGitInfo = false
 
 DefaultContentLanguage = "en"
 theme = "beautifulhugo"
