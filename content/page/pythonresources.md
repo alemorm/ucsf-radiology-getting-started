@@ -9,20 +9,19 @@ The servers have several versions of python, with the default version being pyth
 
 ---
 
-box-
-
 ### Set up a virtual environment
 
 - Use the following command to initialize the latest conda in the servers:
   - `/netopt/rhel7/versions/python/Anaconda3-edge/bin/conda init tcsh bash`
   - Close the current terminal and open a new one for the changes to take place
 
-> **Note:** *Your home directory only has 10GB of memory so it is recommended to pick a directory in a bigger filesystem. Please ask your colleagues or supervisor about which specific directories are allocated for your group.*
-
-- Use the following commands to set up the directory where the python environments and packages will be stored: 
+- Use the following commands to set up the directory where the python environments and packages will be stored:
   - `mkdir /path/to/save/dir`
   - `conda config --append envs_dirs /path/to/save/dir/envs`
   - `conda config --append pkgs_dirs /path/to/save/dir/pkgs`
+
+> **Note: Your home directory only has 10GB of memory so it is recommended to pick a directory in a bigger filesystem. Please ask your colleagues or supervisor about which specific directories are allocated for your group.**
+
 - Follow these specific instructions depending on which python version you would like to use:
 
   - #### Python 2

@@ -126,20 +126,15 @@
         <h2 id="python-resources">Python Resources</h2>
 <p>The servers have several versions of python, with the default version being python 2.7. The best practice when coding in python is to set up a virtual environment with the libraries you will be using. To do this, follow these steps:</p>
 <hr>
-<p>box-</p>
 <h3 id="set-up-a-virtual-environment">Set up a virtual environment</h3>
 <ul>
-<li>Use the following command to initialize the latest conda in the servers:
+<li>
+<p>Use the following command to initialize the latest conda in the servers:</p>
 <ul>
 <li><code>/netopt/rhel7/versions/python/Anaconda3-edge/bin/conda init tcsh bash</code></li>
 <li>Close the current terminal and open a new one for the changes to take place</li>
 </ul>
 </li>
-</ul>
-<blockquote>
-<p><strong>Note:</strong> <em>Your home directory only has 10GB of memory so it is recommended to pick a directory in a bigger filesystem. Please ask your colleagues or supervisor about which specific directories are allocated for your group.</em></p>
-</blockquote>
-<ul>
 <li>
 <p>Use the following commands to set up the directory where the python environments and packages will be stored:</p>
 <ul>
@@ -148,6 +143,11 @@
 <li><code>conda config --append pkgs_dirs /path/to/save/dir/pkgs</code></li>
 </ul>
 </li>
+</ul>
+<blockquote>
+<p><strong>Note: Your home directory only has 10GB of memory so it is recommended to pick a directory in a bigger filesystem. Please ask your colleagues or supervisor about which specific directories are allocated for your group.</strong></p>
+</blockquote>
+<ul>
 <li>
 <p>Follow these specific instructions depending on which python version you would like to use:</p>
 <ul>
