@@ -20,7 +20,7 @@ The servers have several versions of python, with the default version being pyth
   - `conda config --append envs_dirs /path/to/save/dir/envs`
   - `conda config --append pkgs_dirs /path/to/save/dir/pkgs`
 
-> **Note: Your home directory only has lmited space so it is recommended to pick a directory in a bigger filesystem. Please ask your colleagues or supervisor about which specific directories are allocated for your group.**
+> **Note: Your home directory only has limited space so it is recommended to pick a directory in a bigger filesystem. Please ask your colleagues or supervisor about which specific directories are allocated for your group.**
 
 - Use the following command to create a new [Anaconda (includes numpy, scipy, pandas, matplotlib, jupyter, etc)](https://www.anaconda.com/open-source) python environment named `environmentname` (this can be any word without spaces):
 
