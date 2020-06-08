@@ -54,4 +54,4 @@ The servers have several versions of python, with the default version being pyth
 
 ### Advanced
 
-- [Refer to the Scientific Computing Services (SCS) official vnc tutorial for more advanced options (requires UCSF login)](https://wiki.radiology.ucsf.edu/bin/view/SCS/Tutorials/PythonIntro/)
+- [Refer to the Scientific Computing Services (SCS) official Python tutorial for more advanced options (requires UCSF login)](https://wiki.radiology.ucsf.edu/bin/view/SCS/Tutorials/PythonIntro/)
