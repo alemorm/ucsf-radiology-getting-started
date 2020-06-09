@@ -5,6 +5,7 @@ publishdir    = "docs"
 title = "Getting Started"
 canonifyurls  = true
 enableGitInfo = false
+googleAnalytics = "UA-168924327-1"
 
 DefaultContentLanguage = "en"
 theme = "beautifulhugo"
