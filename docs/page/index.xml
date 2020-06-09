@@ -5,8 +5,8 @@
     <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/</link>
     <description>Recent content in Pages on Getting Started</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro)</managingEditor>
-    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro)</webMaster>
+    <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</managingEditor>
+    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster>
     
 	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/page/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/dlresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/dlresources/</guid>
       <description>Deep Learning Resources Here are two popular and powerful machine learning libraries used for deep learning:
  Activate your Python virtual environment before running the following commands in the terminal:
@@ -26,7 +26,7 @@
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitresources/</guid>
       <description>Git Resources Git is a powerful versioning control system that allows you to keep track of changes for your files. Additionally, it allows for collaboration with other people on the same project. It is recommended to develop your work using a versioning tool such as git.
  Quick Git Intro      Peder Larson Group:  Git Tutorial Software Development for Scientists    </description>
@@ -36,7 +36,7 @@
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/jupyterresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/jupyterresources/</guid>
       <description>Jupyter Resources One of the simplest and most versatile ways to use python is through Jupyter Lab. In order to get it working within your virtual environment, follow these steps:
 Installation  Follow the earlier steps to SSH into one of the servers. Activate your virtual environment Run the following commands:  If you created an empty environment, use the following command first:  conda install jupyterlab -y   jupyter lab --no-browser --port 9XXX --notebook-dir=/  Replace 9XXX with the number used for the SSH port forwarding  e.</description>
@@ -46,7 +46,7 @@ Installation  Follow the earlier steps to SSH into one of the servers. Activate 
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/linuxresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/linuxresources/</guid>
       <description>Linux Resources The radiology servers are running a Linux distribution and therefore it is highly recommended to get familiar with Linux.
  Note: Keep in mind that the servers run tcsh by default, which is very similar to bash with some slight differences. You can type bash into any terminal to start using bash.
@@ -57,7 +57,7 @@ Installation  Follow the earlier steps to SSH into one of the servers. Activate 
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/matlabresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/matlabresources/</guid>
       <description>Matlab Resources The servers have many versions of Matlab. Using Matlab is quite simple, all it requires is typing the following command into a terminal in a VNC server:
  matlab &amp;amp; The default matlab is usually R2015b, although this could change. In order to use a specific version, specify which version you would like to run:  e.g. matlab_2013a &amp;amp;   To check all versions of matlab available in the server, run the following command in a terminal:  bash -c &amp;quot;compgen -c | grep -E &#39;^matlab.</description>
@@ -67,7 +67,7 @@ Installation  Follow the earlier steps to SSH into one of the servers. Activate 
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/mriresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/mriresources/</guid>
       <description>MRI Resources Helpful introductions to MRI physics, image formation, image artifacts and terminology.
   Albert Einstein College of Medicine Introductory Series
@@ -83,7 +83,7 @@ Installation  Follow the earlier steps to SSH into one of the servers. Activate 
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/pythonresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/pythonresources/</guid>
       <description>Python Resources The servers have several versions of python, with the default version being python 2.7. The best practice when coding in python is to set up a virtual environment with the libraries you will be using. To do this, follow these steps:
  Set up a virtual environment   Use the following command to initialize the latest conda in the servers:
@@ -94,7 +94,7 @@ Installation  Follow the earlier steps to SSH into one of the servers. Activate 
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/serveraccessresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/serveraccessresources/</guid>
       <description>Radiology Server Access All of the imaging and medical patient data is located within UCSF Radiology encrypted Linux servers. Here is how to access them:
 List of Radiology servers Please refer to the full list of Radiology servers (requires UCSF login) for a comprehensive list of servers grouped by CPU and GPU resources.

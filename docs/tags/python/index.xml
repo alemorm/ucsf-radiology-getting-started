@@ -5,8 +5,8 @@
     <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/python/</link>
     <description>Recent content in python on Getting Started</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro)</managingEditor>
-    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro)</webMaster>
+    <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</managingEditor>
+    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster>
     
 	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/dlresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/dlresources/</guid>
       <description>Deep Learning Resources Here are two popular and powerful machine learning libraries used for deep learning:
  Activate your Python virtual environment before running the following commands in the terminal:
@@ -26,7 +26,7 @@
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/jupyterresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/jupyterresources/</guid>
       <description>Jupyter Resources One of the simplest and most versatile ways to use python is through Jupyter Lab. In order to get it working within your virtual environment, follow these steps:
 Installation  Follow the earlier steps to SSH into one of the servers. Activate your virtual environment Run the following commands:  If you created an empty environment, use the following command first:  conda install jupyterlab -y   jupyter lab --no-browser --port 9XXX --notebook-dir=/  Replace 9XXX with the number used for the SSH port forwarding  e.</description>
@@ -36,7 +36,7 @@ Installation  Follow the earlier steps to SSH into one of the servers. Activate 
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/pythonresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/pythonresources/</guid>
       <description>Python Resources The servers have several versions of python, with the default version being python 2.7. The best practice when coding in python is to set up a virtual environment with the libraries you will be using. To do this, follow these steps:
  Set up a virtual environment   Use the following command to initialize the latest conda in the servers:

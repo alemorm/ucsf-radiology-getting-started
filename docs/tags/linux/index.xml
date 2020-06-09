@@ -5,8 +5,8 @@
     <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/linux/</link>
     <description>Recent content in linux on Getting Started</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro)</managingEditor>
-    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro)</webMaster>
+    <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</managingEditor>
+    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster>
     
 	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitresources/</guid>
       <description>Git Resources Git is a powerful versioning control system that allows you to keep track of changes for your files. Additionally, it allows for collaboration with other people on the same project. It is recommended to develop your work using a versioning tool such as git.
  Quick Git Intro      Peder Larson Group:  Git Tutorial Software Development for Scientists    </description>
@@ -25,7 +25,7 @@
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/linuxresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/linuxresources/</guid>
       <description>Linux Resources The radiology servers are running a Linux distribution and therefore it is highly recommended to get familiar with Linux.
  Note: Keep in mind that the servers run tcsh by default, which is very similar to bash with some slight differences. You can type bash into any terminal to start using bash.
@@ -36,7 +36,7 @@
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/serveraccessresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro)</author>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/serveraccessresources/</guid>
       <description>Radiology Server Access All of the imaging and medical patient data is located within UCSF Radiology encrypted Linux servers. Here is how to access them:
 List of Radiology servers Please refer to the full list of Radiology servers (requires UCSF login) for a comprehensive list of servers grouped by CPU and GPU resources.

@@ -39,7 +39,7 @@ pygmentCodeFences = true
 #  desc = "Hexagon"
 
 [Author]
-  name = "Alejandro"
+  name = "Alejandro Morales Martinez"
   email = "alejandro.moralesmartinez@ucsf.edu"
   gitlab = "amoralesmartinez"
   github = "alemorm"
