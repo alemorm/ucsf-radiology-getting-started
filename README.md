@@ -18,5 +18,5 @@ A collection of useful educational resources and tutorials in order to learn abo
 
 [ucsflogo]: /content/materials/UCSF_sublogo_RadiologyBiomedicalImaging_navy_RGB.png "UCSF logo"
 [ucsfrad]: https://radiology.ucsf.edu/
-[ucsfsite]: https://github.com/alemorm/ucsf-radiology-getting-started
+[ucsfsite]: https://alemorm.github.io/ucsf-radiology-getting-started/
 [hugogitlab]: https://gitlab.com/pages/hugo
