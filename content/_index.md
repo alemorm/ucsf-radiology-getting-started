@@ -1,4 +1,4 @@
-# ![ucsflogo]
+[![ucsflogo]][ucsfrad]
 
 ---
 
@@ -33,6 +33,7 @@ Depending on your experience and knowledge level, here is a recommended way to a
 *This website is being actively maintained and improved. [Please contact me if you experience any issues][mailme]*
 
 [ucsflogo]: /materials/UCSF_sublogo_RadiologyBiomedicalImaging_navy_RGB.png "UCSF logo"
+[ucsfrad]: https://radiology.ucsf.edu/
 [mrires]: /page/mriresources
 [linuxres]: /page/linuxresources
 [gitres]: /page/gitresources

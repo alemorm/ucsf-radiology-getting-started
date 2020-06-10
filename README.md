@@ -1,4 +1,8 @@
-# ![testimage][ucsflogo]
+[![ucsflogo]][ucsfrad]
+
+---
+
+# [Website][ucsfsite]
 
 ---
 
@@ -10,6 +14,9 @@ A collection of useful educational resources and tutorials in order to learn abo
 
 ## Source
 
-[Adapted from the Gitlab Pages sample Hugo project](https://gitlab.com/pages/hugo)
+[Adapted from the Gitlab Pages sample Hugo project][hugogitlab]
 
 [ucsflogo]: /content/materials/UCSF_sublogo_RadiologyBiomedicalImaging_navy_RGB.png "UCSF logo"
+[ucsfrad]: https://radiology.ucsf.edu/
+[ucsfsite]: https://github.com/alemorm/ucsf-radiology-getting-started
+[hugogitlab]: https://gitlab.com/pages/hugo
