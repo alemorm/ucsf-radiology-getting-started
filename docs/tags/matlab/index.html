@@ -104,6 +104,12 @@ if (!doNotTrack) {
         
 
         
+          <li>
+            <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch" style="outline: none;">
+              <span class="hidden-sm hidden-md hidden-lg">Search</span> <span id="searchGlyph" class="glyphicon glyphicon-search"></span>
+            </a>
+          </li>
+        
       </ul>
     </div>
 
@@ -117,6 +123,23 @@ if (!doNotTrack) {
 </nav>
 
 
+
+  <div id="modalSearch" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Search Getting Started</h4>
+        </div>
+        <div class="modal-body">
+          <gcse:search></gcse:search>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
     
@@ -233,7 +256,7 @@ if (!doNotTrack) {
         
         <p class="credits theme-by text-muted">
           <a href="http://gohugo.io">Hugo v0.72.0</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-          &nbsp;&bull;&nbsp;[<a href="https://github.com/alemorm/ucsf-radiology-getting-started/tree"></a>]
+          &nbsp;&bull;&nbsp;[<a href="https://github.com/alemorm/ucsf-radiology-getting-started/tree/"></a>]
         </p>
       </div>
     </div>
@@ -251,6 +274,18 @@ if (!doNotTrack) {
 
 
 
+
+<script>
+  (function() {
+    var cx = '002827558899377173796:mvr9v8sqbnq';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
 
 
   </body>
