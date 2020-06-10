@@ -23,7 +23,7 @@ pygmentCodeFences = true
   commit = "https://github.com/alemorm/ucsf-radiology-getting-started/tree/"
   rss = false
   comments = true
-  gcse = "002827558899377173796:mvr9v8sqbnq" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+#   gcse = "002827558899377173796:mvr9v8sqbnq" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 # [[Params.bigimg]]
 #  src = "materials/UCSF_sig_navy_RGB.png"
