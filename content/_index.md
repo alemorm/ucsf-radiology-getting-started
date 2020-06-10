@@ -12,25 +12,32 @@ A collection of useful educational resources and tutorials in order to learn abo
 
 Depending on your experience and knowledge level, here is a recommended way to approach the resources:
 
-> **Legend**
-> Optional = not necessary to get started
-> Required = needed to get started
+---
 
-1. #### [MRI Basics][mrires] (Optional)
+{{< notice tip >}}
 
-2. #### [Linux Basics][linuxres] (Required)
+- **Optional (O)** = not necessary to get started
+- **Required (R)** = needed to get started
 
-3. #### [Git Basics][gitres] (Optional)
+{{< /notice >}}
 
-4. #### [Server Access][serveraccessres] (Required)
+---
 
-5. #### [Matlab][matlabres] (Optional)
+1. #### [MRI Basics][mrires] (O)
 
-6. #### [Python][pythonres] (Required)
+2. #### [Linux Basics][linuxres] (R)
 
-7. #### [Jupyter][jupyterres] (Optional)
+3. #### [Git Basics][gitres] (O)
 
-8. #### [Deep Learning][dlres] (Optional)
+4. #### [Server Access][serveraccessres] (R)
+
+5. #### [Matlab][matlabres] (O)
+
+6. #### [Python][pythonres] (R)
+
+7. #### [Jupyter][jupyterres] (O)
+
+8. #### [Deep Learning][dlres] (O)
 
 ---
 

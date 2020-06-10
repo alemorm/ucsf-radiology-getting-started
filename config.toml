@@ -8,7 +8,7 @@ enableGitInfo = true
 googleAnalytics = "UA-168924327-1"
 
 DefaultContentLanguage = "en"
-theme = "beautifulhugo"
+theme = ["hugo-notice", "beautifulhugo"]
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
