@@ -7,7 +7,7 @@ tags: [deeplearning, python]
 
 Here are two popular and powerful machine learning libraries used for deep learning:
 
-> **[Activate your Python virtual environment](/page/pythonresources) before running the following commands in the terminal:**
+> **[Activate your Python virtual environment][pythonres] before running the following commands in the terminal:**
 
 ### TensorFlow
 
@@ -20,3 +20,5 @@ Here are two popular and powerful machine learning libraries used for deep learn
 
 - Install the latest PyTorch version:
   - `conda install pytorch torchvision -y`
+
+[pythonres]: /page/pythonresources

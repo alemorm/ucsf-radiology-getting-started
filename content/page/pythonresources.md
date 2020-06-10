@@ -22,7 +22,7 @@ The servers have several versions of python, with the default version being pyth
 
 > **Note: Your home directory has limited space so it is recommended to pick a directory in a bigger filesystem. Please ask your colleagues or supervisor about which specific directories are allocated for your group.**
 
-- Use the following command to create a new [Anaconda (includes numpy, scipy, pandas, matplotlib, jupyter, etc)](https://www.anaconda.com/open-source) python environment named `environmentname` (this can be any word without spaces):
+- Use the following command to create a new [Anaconda] (includes numpy, scipy, pandas, matplotlib, jupyter, etc)] python environment named `environmentname` (this can be any word without spaces):
 
   - #### Python 2
     - `conda create -n environmentname python=2.7 anaconda -y`
@@ -48,10 +48,14 @@ The servers have several versions of python, with the default version being pyth
 
 ---
 
-### [Conda CheatSheet](/materials/conda-cheatsheet.pdf)
+### [Conda CheatSheet][condacheat]
 
 ---
 
 ### Advanced
 
-- [Refer to the Scientific Computing Services (SCS) official Python tutorial for more advanced options (requires UCSF login)](https://wiki.radiology.ucsf.edu/bin/view/SCS/Tutorials/PythonIntro/)
+- Refer to the Scientific Computing Services (SCS) [official Python tutorial][scspython] for more advanced options (requires UCSF login)
+
+[anaconda]: https://www.anaconda.com/open-source
+[condacheat]: /materials/conda-cheatsheet.pdf
+[scspython]: https://wiki.radiology.ucsf.edu/bin/view/SCS/Tutorials/PythonIntro/

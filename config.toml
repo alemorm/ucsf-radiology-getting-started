@@ -4,7 +4,7 @@ layoutdir     = "layouts"
 publishdir    = "docs"
 title = "Getting Started"
 canonifyurls  = true
-enableGitInfo = false
+enableGitInfo = true
 googleAnalytics = "UA-168924327-1"
 
 DefaultContentLanguage = "en"

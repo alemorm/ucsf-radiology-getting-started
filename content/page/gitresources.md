@@ -14,5 +14,8 @@ Git is a powerful versioning control system that allows you to keep track of cha
 ---
 
 - **Peder Larson Group:**
-  - [Git Tutorial](/materials/git_tutorial.pdf)
-  - [Software Development for Scientists](/materials/Software_Development_for_Scientists.pdf)
+  - [Git Tutorial][gittut]
+  - [Software Development for Scientists][softwaredev]
+
+[gittut]: /materials/git_tutorial.pdf
+[softwaredev]: /materials/Software_Development_for_Scientists.pdf

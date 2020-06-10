@@ -17,7 +17,7 @@ The servers have many versions of Matlab. Using Matlab is quite simple, all it r
 
 ### Useful 3D visualization app in Matlab
 
-[Imagine](https://github.com/imagineStudios/Imagine-Legacy) is an useful visualization tool for 3D images, use the following commands:
+[Imagine] is an useful visualization tool for 3D images, to download it, use the following command:
 
 - `cd ~ && git clone https://github.com/imagineStudios/Imagine-Legacy.git`
 
@@ -25,6 +25,6 @@ From the matlab command window, use the following commands:
 
 - `addpath ~/imagine`
 - `figure; imagine2(3D_data)`
-  - Replace `3D_data` with your actual 3D data structure
+  - Replace `3D_data` with your actual 3D data array
 
----
+[imagine]: https://github.com/imagineStudios/Imagine-Legacy
