@@ -12,6 +12,10 @@ A collection of useful educational resources and tutorials in order to learn abo
 
 Depending on your experience and knowledge level, here is a recommended way to approach the resources:
 
+> **Legend**
+> Optional = not necessary to get started
+> Required = needed to get started
+
 1. #### [MRI Basics][mrires] (Optional)
 
 2. #### [Linux Basics][linuxres] (Required)
