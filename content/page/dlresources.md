@@ -5,7 +5,7 @@ tags: [deeplearning, python]
 
 ## Deep Learning Resources
 
-Here are two popular and powerful machine learning libraries used for deep learning:
+Here are two popular and powerful machine learning libraries used for deep learning (refer to [Machine Learning Resources][mlresources] to understand the concepts):
 
 > **[Activate your Python virtual environment][pythonres] before running the following commands in the terminal:**
 
@@ -21,4 +21,5 @@ Here are two popular and powerful machine learning libraries used for deep learn
 - Install the latest PyTorch version:
   - `conda install pytorch torchvision -y`
 
+[mlresources]: /page/mlresources
 [pythonres]: /page/pythonresources

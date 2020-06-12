@@ -17,7 +17,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/dlresources/</guid>
-      <description>Deep Learning Resources Here are two popular and powerful machine learning libraries used for deep learning:
+      <description>Deep Learning Resources Here are two popular and powerful machine learning libraries used for deep learning (refer to Machine Learning Resources to understand the concepts):
  Activate your Python virtual environment before running the following commands in the terminal:
  TensorFlow  Install the latest TensorFlow version:  conda install tensorflow-gpu -y     PyTorch  Install the latest PyTorch version:  conda install pytorch torchvision -y    </description>
     </item>

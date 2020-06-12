@@ -23,23 +23,33 @@ Depending on your experience and knowledge level, here is a recommended way to a
 
 ---
 
-1. #### [MRI Basics][mrires] (O)
+- ### Educational Resources
 
-2. #### [Linux Basics][linuxres] (R)
+  - #### [MRI Basics][mrires] (O)
 
-3. #### [Git Basics][gitres] (O)
+  - #### [Linux Basics][linuxres] (R)
 
-4. #### [Machine Learning Basics][mlres] (O)
+  - #### [Git Basics][gitres] (O)
 
-5. #### [Server Access][serveraccessres] (R)
+  - #### [Machine Learning Basics][mlres] (O)
 
-6. #### [Matlab][matlabres] (O)
+---
 
-7. #### [Python][pythonres] (R)
+- ### Radiology Servers Usage
 
-8. #### [Jupyter][jupyterres] (O)
+  - #### [Server Access][serveraccessres] (R)
 
-9. #### [Deep Learning][dlres] (O)
+---
+
+- ### Computational Tools
+
+  - #### [Matlab][matlabres] (O)
+
+  - #### [Python][pythonres] (R)
+
+  - #### [Jupyter][jupyterres] (O)
+
+  - #### [Deep Learning][dlres] (O)
 
 ---
 
