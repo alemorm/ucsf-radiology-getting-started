@@ -29,15 +29,17 @@ Depending on your experience and knowledge level, here is a recommended way to a
 
 3. #### [Git Basics][gitres] (O)
 
-4. #### [Server Access][serveraccessres] (R)
+4. #### [Machine Learning Basics][mlres] (O)
 
-5. #### [Matlab][matlabres] (O)
+5. #### [Server Access][serveraccessres] (R)
 
-6. #### [Python][pythonres] (R)
+6. #### [Matlab][matlabres] (O)
 
-7. #### [Jupyter][jupyterres] (O)
+7. #### [Python][pythonres] (R)
 
-8. #### [Deep Learning][dlres] (O)
+8. #### [Jupyter][jupyterres] (O)
+
+9. #### [Deep Learning][dlres] (O)
 
 ---
 
@@ -48,6 +50,7 @@ Depending on your experience and knowledge level, here is a recommended way to a
 [mrires]: /page/mriresources
 [linuxres]: /page/linuxresources
 [gitres]: /page/gitresources
+[mlres]: /page/mlresources
 [serveraccessres]: /page/serveraccessresources
 [matlabres]: /page/matlabresources
 [pythonres]: /page/pythonresources

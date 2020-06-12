@@ -34,6 +34,10 @@
   </url>
   
   <url>
+    <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/mlresources/</loc>
+  </url>
+  
+  <url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/mriresources/</loc>
     <lastmod>2020-06-10T11:19:57-07:00</lastmod>
   </url>
@@ -70,6 +74,10 @@
   <url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/linux/</loc>
     <lastmod>2020-06-10T11:19:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/machinelearning/</loc>
   </url>
   
   <url>

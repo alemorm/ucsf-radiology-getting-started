@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machinelearning on Getting Started</title>
+    <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/machinelearning/</link>
+    <description>Recent content in machinelearning on Getting Started</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</managingEditor>
+    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster>
+    
+	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/mlresources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/mlresources/</guid>
+      <description>Machine Learning Resources Helpful Stanford introductory course to Machine Learning.
+    Stanford CS229: Machine Learning Overview   Deep Learning Resources Helpful Stanford introductory course to Deep Learning and Convolutional Neural Networks (CNN).
+    Stanford CS231n: Convolutional Neural Networks for Visual Recognition   Useful 3blue1brown educational video on CNNs
+  </description>
+    </item>
+    
+  </channel>
+</rss>

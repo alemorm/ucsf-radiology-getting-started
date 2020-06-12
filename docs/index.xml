@@ -65,6 +65,18 @@ Installation  Follow the earlier steps to SSH into one of the servers. Activate 
     
     <item>
       <title></title>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/mlresources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/mlresources/</guid>
+      <description>Machine Learning Resources Helpful Stanford introductory course to Machine Learning.
+    Stanford CS229: Machine Learning Overview   Deep Learning Resources Helpful Stanford introductory course to Deep Learning and Convolutional Neural Networks (CNN).
+    Stanford CS231n: Convolutional Neural Networks for Visual Recognition   Useful 3blue1brown educational video on CNNs
+  </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/mriresources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>

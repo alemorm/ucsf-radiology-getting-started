@@ -69,6 +69,12 @@ pygmentCodeFences = true
     weight = 3
 
 [[menu.main]]
+    parent = "Education"
+    name = "Machine Learning"
+    url = "page/mlresources"
+    weight = 4
+
+[[menu.main]]
     name = "Server Access"
     url = "page/serveraccessresources"
     weight = 2
