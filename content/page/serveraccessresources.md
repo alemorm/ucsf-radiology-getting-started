@@ -54,7 +54,7 @@ Unlike SSH, VNC allows you to access a virtual display of the servers. This lets
 
 - Refer to the Scientific Computing Services (SCS) [official VNC tutorial][scsvnc] for more advanced options (requires UCSF login)
 
-[ucsfservers]: https://git.radiology.ucsf.edu/amoralesmartinez/ucsf-radiology-getting-started/-/blob/e7fd1b024c14f8e15713db1e7431efdaf8faa970/content/materials/listofservers.md
+[ucsfservers]: https://ucsf.box.com/s/yx3hv4trm4kniy1in0op2y7nzeukouf2
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
 [putty]: https://www.ssh.com/ssh/putty/download
 [cygwin]: https://cygwin.com/install.html
