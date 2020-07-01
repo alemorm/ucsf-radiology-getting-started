@@ -21,5 +21,12 @@ Here are two popular and powerful machine learning libraries used for deep learn
 - Install the latest PyTorch version:
   - `conda install pytorch torchvision -y`
 
+---
+
+## [DioscoriDESS]
+
+DioscoriDESS is a segmentation framework developed by UCSF Radiology. Instructions for how to use it can be found [here][dioscoridess].
+
 [machinelearningedu]: /page/machinelearningedu
 [pythonres]: /page/pythoninfo
+[dioscoridess]: /page/dioscoridess
