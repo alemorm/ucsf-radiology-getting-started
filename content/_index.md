@@ -50,6 +50,8 @@ Depending on your experience and knowledge level, here is a recommended way to a
   - #### [Jupyter][jupyterres] (O)
 
   - #### [Deep Learning][dlres] (O)
+    
+    - #### [DioscoriDESS] (O)
 
 ---
 
@@ -66,4 +68,5 @@ Depending on your experience and knowledge level, here is a recommended way to a
 [pythonres]: /page/pythoninfo
 [jupyterres]: /page/jupyterinfo
 [dlres]: /page/deeplearninginfo
+[dioscoridess]: /page/dioscoridess
 [mailme]: mailto:alejandro.moralesmartinez@ucsf.edu
