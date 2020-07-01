@@ -5,18 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Categories</title>
-  <meta property="og:title" content="Categories" />
-  <meta name="twitter:title" content="Categories" />
+  <title>Getting Started</title>
+  <meta property="og:title" content="Getting Started" />
+  <meta name="twitter:title" content="Getting Started" />
+  <meta name="description" content="Server Access Tool">
+  <meta property="og:description" content="Server Access Tool">
+  <meta name="twitter:description" content="Server Access Tool">
   <meta name="author" content="Alejandro Morales Martinez"/>
   <link href='https://alemorm.github.io/ucsf-radiology-getting-started/materials/GitHub-Mark-Light-32px.png' rel='icon' type='image/x-icon'/>
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://alemorm.github.io/categories/" />
+  <meta property="og:url" content="https://alemorm.github.io/page/serveraccessinfo/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Getting Started" />
 
   <meta name="generator" content="Hugo 0.72.0" />
-  <link rel="canonical" href="https://alemorm.github.io/categories/" />
+  <link rel="canonical" href="https://alemorm.github.io/page/serveraccessinfo/" />
   <link rel="alternate" href="https://alemorm.github.io/ucsf-radiology-getting-started/index.xml" type="application/rss+xml" title="Getting Started">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -129,36 +132,86 @@ if (!doNotTrack) {
 
 
 
-  
+  <div class="intro-header"></div>
 
-  <header class="header-section ">
+
     
-    <div class="intro-header no-img">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <h2 id="radiology-server-access">Radiology Server Access</h2>
+<p>All of the imaging and medical patient data is located within UCSF Radiology encrypted Linux servers. Here is how to access them:</p>
+<h3 id="list-of-radiology-servers">List of Radiology servers</h3>
+<p>Please refer to the <a href="https://ucsf.box.com/s/yx3hv4trm4kniy1in0op2y7nzeukouf2">full list of Radiology servers (requires UCSF login)</a> for a comprehensive list of servers grouped by CPU and GPU resources.</p>
+<hr>
+<p>Here are the two main ways to access the servers:</p>
+<h3 id="ssh">SSH</h3>
+<h4 id="mac-and-linux-users">Mac and Linux users</h4>
+<ul>
+<li>Open a terminal and type the following:
+<ul>
+<li><code>ssh username@servername.radiology.ucsf.edu -L 9XXX:localhost:9XXX</code></li>
+<li>For the above command make sure to replace the <code>username</code> with your own, the  <code>servername</code> with any of the <a href="https://ucsf.box.com/s/yx3hv4trm4kniy1in0op2y7nzeukouf2">listed server names (requires UCSF login)</a> and the <code>9XXX</code> with a number above <code>9020</code></li>
+<li>There will be a prompt for your UCSF password</li>
+</ul>
+</li>
+</ul>
+<h4 id="pc-users">PC users</h4>
+<ul>
+<li>Use <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">WSL</a>, <a href="https://www.ssh.com/ssh/putty/download">PuTTY</a>, <a href="https://cygwin.com/install.html">Cygwin</a> or any other SSH tool:
+<ul>
+<li>Use <code>servername.radiology.ucsf.edu</code> as the host name</li>
+<li>Specify the local port forwarding, using the same number <code>9XXX</code>, higher than <code>9020</code>, both the source port and the destination port</li>
+<li>There will be a prompt for your UCSF password</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="vnc">VNC</h3>
+<p>Unlike SSH, VNC allows you to access a virtual display of the servers. This lets you browse through the file system and open visual applications such as Matlab and a web browser in a virtual operating system. Follow these steps to start a VNC session:</p>
+<ul>
+<li>Download and install <a href="https://www.realvnc.com/en/connect/download/viewer/">VNC Viewer</a>.</li>
+<li>Once installed you will need to SSH to the server to which you will VNC into and type the following command into a terminal:
+<ul>
+<li><code>myvncserver</code></li>
+<li>Towards the bottom of the output, take note of the last number as that will be the display number you will need to access the VNC server. Shown as <code>radiology.ucsf.edu:7</code> highlighted below.</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://alemorm.github.io/ucsf-radiology-getting-started/materials/vncserversample.png" alt="vncimage" title="VNC Output"></p>
+<ul>
+<li>Open VNC Viewer and type the server information in the following form:
+<ul>
+<li>e.g. <code>servername.radiology.ucsf.edu:7</code></li>
+<li>You will be prompted for your UCSF username and password.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h4 id="advanced">Advanced</h4>
+<ul>
+<li>Refer to the Scientific Computing Services (SCS) <a href="https://wiki.radiology.ucsf.edu/bin/view/SCS/Tutorials/RealVNCAdvanced/">official VNC tutorial</a> for more advanced options (requires UCSF login)</li>
+</ul>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+        
+          <li class="next">
+            <a href="https://alemorm.github.io/ucsf-radiology-getting-started/page/pythoninfo/" data-toggle="tooltip" data-placement="top" title="">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
       
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="categories-heading">
-              <h1>Categories</h1>
-                
-                
-            </div>
-          </div>
-        </div>
-      </div>
+        
+      
+
     </div>
-  </header>
-
-
-    
-  
-  <div class="container" role="main">
-    <article class="post-preview">
-      <div class="list-group col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
-      
-      </div>
-    </article>
   </div>
+</div>
 
     <footer>
   <div class="container">

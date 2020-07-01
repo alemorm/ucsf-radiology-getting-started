@@ -5,18 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Categories</title>
-  <meta property="og:title" content="Categories" />
-  <meta name="twitter:title" content="Categories" />
+  <title>Getting Started</title>
+  <meta property="og:title" content="Getting Started" />
+  <meta name="twitter:title" content="Getting Started" />
+  <meta name="description" content="Matlab Tool Resources">
+  <meta property="og:description" content="Matlab Tool Resources">
+  <meta name="twitter:description" content="Matlab Tool Resources">
   <meta name="author" content="Alejandro Morales Martinez"/>
   <link href='https://alemorm.github.io/ucsf-radiology-getting-started/materials/GitHub-Mark-Light-32px.png' rel='icon' type='image/x-icon'/>
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://alemorm.github.io/categories/" />
+  <meta property="og:url" content="https://alemorm.github.io/page/matlabinfo/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Getting Started" />
 
   <meta name="generator" content="Hugo 0.72.0" />
-  <link rel="canonical" href="https://alemorm.github.io/categories/" />
+  <link rel="canonical" href="https://alemorm.github.io/page/matlabinfo/" />
   <link rel="alternate" href="https://alemorm.github.io/ucsf-radiology-getting-started/index.xml" type="application/rss+xml" title="Getting Started">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -129,36 +132,67 @@ if (!doNotTrack) {
 
 
 
-  
+  <div class="intro-header"></div>
 
-  <header class="header-section ">
+
     
-    <div class="intro-header no-img">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <h2 id="matlab-resources">Matlab Resources</h2>
+<p>The servers have many versions of Matlab. Using Matlab is quite simple, all it requires is typing the following command into a terminal in a VNC server:</p>
+<ul>
+<li><code>matlab &amp;</code></li>
+<li>The default matlab is usually R2015b, although this could change. In order to use a specific version, specify which version you would like to run:
+<ul>
+<li>e.g. <code>matlab_2013a &amp;</code></li>
+</ul>
+</li>
+<li>To check all versions of matlab available in the server, run the following command in a terminal:
+<ul>
+<li><code>bash -c &quot;compgen -c | grep -E '^matlab.*[ab]' | sort&quot;</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="useful-3d-visualization-app-in-matlab">Useful 3D visualization app in Matlab</h3>
+<p><a href="https://github.com/imagineStudios/Imagine-Legacy">Imagine</a> is an useful visualization tool for 3D images, to download it, use the following command:</p>
+<ul>
+<li><code>cd ~ &amp;&amp; git clone https://github.com/imagineStudios/Imagine-Legacy.git</code></li>
+</ul>
+<p>From the matlab command window, use the following commands:</p>
+<ul>
+<li><code>addpath ~/imagine</code></li>
+<li><code>figure; imagine2(3D_data)</code>
+<ul>
+<li>Replace <code>3D_data</code> with your actual 3D data array</li>
+</ul>
+</li>
+</ul>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="https://alemorm.github.io/ucsf-radiology-getting-started/page/mriedu/" data-toggle="tooltip" data-placement="top" title="">&larr; Previous Post</a>
+          </li>
+        
+        
+          <li class="next">
+            <a href="https://alemorm.github.io/ucsf-radiology-getting-started/page/machinelearningedu/" data-toggle="tooltip" data-placement="top" title="">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
       
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="categories-heading">
-              <h1>Categories</h1>
-                
-                
-            </div>
-          </div>
-        </div>
-      </div>
+        
+      
+
     </div>
-  </header>
-
-
-    
-  
-  <div class="container" role="main">
-    <article class="post-preview">
-      <div class="list-group col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
-      
-      </div>
-    </article>
   </div>
+</div>
 
     <footer>
   <div class="container">

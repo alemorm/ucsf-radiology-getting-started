@@ -17,8 +17,6 @@ pygmentCodeFences = true
 [Params]
   subtitle = "UCSF Radiology Getting Started Guide"
 #   logo = "materials/UCSF_sig_navy_RGB.png"
-#   favicon = "materials/UCSF_sig_white_RGB.png"
-#   favicon = "img/favicon.ico"
   favicon = "materials/GitHub-Mark-Light-32px.png"
   dateFormat = "January 2, 2006"
   commit = "https://github.com/alemorm/ucsf-radiology-getting-started/tree/"
@@ -54,30 +52,30 @@ pygmentCodeFences = true
 [[menu.main]]
     parent = "Education"
     name = "MRI"
-    url = "/page/mriresources"
+    url = "/page/mriredu"
     weight = 1
 
 [[menu.main]]
     parent = "Education"
     name = "Linux"
-    url = "/page/linuxresources"
+    url = "/page/linuxedu"
     weight = 2
 
 [[menu.main]]
     parent = "Education"
     name = "Git"
-    url = "/page/gitresources"
+    url = "/page/gitedu"
     weight = 3
 
 [[menu.main]]
     parent = "Education"
     name = "Machine Learning"
-    url = "/page/mlresources"
+    url = "/page/machinelearningedu"
     weight = 4
 
 [[menu.main]]
     name = "Server Access"
-    url = "/page/serveraccessresources"
+    url = "/page/serveraccessinfo"
     weight = 2
 
 [[menu.main]]
@@ -88,25 +86,25 @@ pygmentCodeFences = true
 [[menu.main]]
     parent = "Tools"
     name = "Matlab"
-    url = "/page/matlabresources"
+    url = "/page/matlabinfo"
     weight = 1
 
 [[menu.main]]
     parent = "Tools"
     name = "Python"
-    url = "/page/pythonresources"
+    url = "/page/pythoninfo"
     weight = 2
 
 [[menu.main]]
     parent = "Tools"
     name = "Jupyter"
-    url = "/page/jupyterresources"
+    url = "/page/jupyterinfo"
     weight = 3
 
 [[menu.main]]
     parent = "Tools"
     name = "Deep Learning"
-    url = "/page/dlresources"
+    url = "/page/deeplearninginfo"
     weight = 4
 
 [[menu.main]]

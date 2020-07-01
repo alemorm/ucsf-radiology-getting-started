@@ -13,10 +13,10 @@
     
     <item>
       <title></title>
-      <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/matlabresources/</link>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/matlabinfo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
-      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/matlabresources/</guid>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/matlabinfo/</guid>
       <description>Matlab Resources The servers have many versions of Matlab. Using Matlab is quite simple, all it requires is typing the following command into a terminal in a VNC server:
  matlab &amp;amp; The default matlab is usually R2015b, although this could change. In order to use a specific version, specify which version you would like to run:  e.g. matlab_2013a &amp;amp;   To check all versions of matlab available in the server, run the following command in a terminal:  bash -c &amp;quot;compgen -c | grep -E &#39;^matlab.</description>
     </item>

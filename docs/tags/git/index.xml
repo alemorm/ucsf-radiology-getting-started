@@ -13,10 +13,10 @@
     
     <item>
       <title></title>
-      <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitresources/</link>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitedu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
-      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitresources/</guid>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitedu/</guid>
       <description>Git Resources Git is a powerful versioning control system that allows you to keep track of changes for your files. Additionally, it allows for collaboration with other people on the same project. It is recommended to develop your work using a versioning tool such as git.
  Quick Git Intro      Peder Larson Group:  Git Tutorial Software Development for Scientists    </description>
     </item>

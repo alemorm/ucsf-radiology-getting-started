@@ -57,13 +57,13 @@ Depending on your experience and knowledge level, here is a recommended way to a
 
 [ucsflogo]: /materials/UCSF_sublogo_RadiologyBiomedicalImaging_navy_RGB.png "UCSF logo"
 [ucsfrad]: https://radiology.ucsf.edu/
-[mrires]: /page/mriresources
-[linuxres]: /page/linuxresources
-[gitres]: /page/gitresources
-[mlres]: /page/mlresources
-[serveraccessres]: /page/serveraccessresources
-[matlabres]: /page/matlabresources
-[pythonres]: /page/pythonresources
-[jupyterres]: /page/jupyterresources
-[dlres]: /page/dlresources
+[mrires]: /page/mriedu
+[linuxres]: /page/linuxedu
+[gitres]: /page/gitedu
+[mlres]: /page/machinelearningedu
+[serveraccessres]: /page/serveraccessinfo
+[matlabres]: /page/matlabinfo
+[pythonres]: /page/pythoninfo
+[jupyterres]: /page/jupyterinfo
+[dlres]: /page/deeplearninginfo
 [mailme]: mailto:alejandro.moralesmartinez@ucsf.edu

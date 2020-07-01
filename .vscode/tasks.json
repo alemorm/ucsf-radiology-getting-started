@@ -1,0 +1,43 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Hugo-Build",
+            "type": "shell",
+            "command": "env GIT_COMMIT_SHA=`git rev-parse --verify HEAD` GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD` hugo",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Git Pull",
+            "type": "shell",
+            "command": "git pull"
+        },
+        {
+            "label": "Git Add All",
+            "type": "shell",
+            "command": "git add -A"
+        },
+        {
+            "label": "Git Commit All",
+            "type": "shell",
+            "command": "git commit -a"
+        },
+        {
+            "label": "Git Sync",
+            "type": "shell",
+            "command": "git push",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Git Pull",
+                "Hugo-Build",
+                "Git Add All",
+                "Git Commit All"
+            ]
+        }
+    ]
+}
