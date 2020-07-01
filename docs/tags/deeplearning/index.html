@@ -160,29 +160,10 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  <h2 id="deep-learning-resources">Deep Learning Resources</h2>
-<p>Here are two popular and powerful machine learning libraries used for deep learning (refer to <a href="https://alemorm.github.io/ucsf-radiology-getting-started/page/machinelearningedu">Machine Learning Resources</a> to understand the concepts):</p>
-<blockquote>
-<p><strong><a href="https://alemorm.github.io/ucsf-radiology-getting-started/page/pythoninfo">Activate your Python virtual environment</a> before running the following commands in the terminal:</strong></p>
-</blockquote>
-<h3 id="tensorflow">TensorFlow</h3>
-<ul>
-<li>Install the latest TensorFlow version:
-<ul>
-<li><code>conda install tensorflow-gpu -y</code></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="pytorch">PyTorch</h3>
-<ul>
-<li>Install the latest PyTorch version:
-<ul>
-<li><code>conda install pytorch torchvision -y</code></li>
-</ul>
-</li>
-</ul>
-
+                  Deep Learning Resources Here are two popular and powerful machine learning libraries used for deep learning (refer to Machine Learning Resources to understand the concepts):
+ Activate your Python virtual environment before running the following commands in the terminal:
+ TensorFlow  Install the latest TensorFlow version:  conda install tensorflow-gpu -y     PyTorch  Install the latest PyTorch version:  conda install pytorch torchvision -y     DioscoriDESS DioscoriDESS is a segmentation framework developed by UCSF Radiology.
+                  <a href="https://alemorm.github.io/ucsf-radiology-getting-started/page/deeplearninginfo/" class="post-read-more">[Read More]</a>
                 
               </div>
     
@@ -214,7 +195,11 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  
+                  Dioscoridess  .notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Note
+ Make sure to replace /data/knee_mri4/pferreira/4_analysis/dioscoridess/ with a location of your choice.    Make a directory where your input files (.yaml) and output files (.h5) will be stored:
+mkdir -p /data/knee_mri4/pferreira/4_analysis/dioscoridess/cfgs mkdir -p /data/knee_mri4/pferreira/4_analysis/dioscoridess/logs mkdir -p /data/knee_mri4/pferreira/4_analysis/dioscoridess/ckpt   Create your yaml file and save in /data/knee_mri4/pferreira/4_analysis/dioscoridess/cfgs/my_input.yaml:
+# Sample .
+                  <a href="https://alemorm.github.io/ucsf-radiology-getting-started/page/dioscoridess/" class="post-read-more">[Read More]</a>
                 
               </div>
     
@@ -279,7 +264,7 @@ if (!doNotTrack) {
         <p class="credits copyright text-muted">
           Alejandro Morales Martinez
           &nbsp;&bull;&nbsp;
-          0001
+          2020
 
           
             &nbsp;&bull;&nbsp;
@@ -289,7 +274,7 @@ if (!doNotTrack) {
         
         <p class="credits theme-by text-muted">
           <a href="http://gohugo.io">Hugo v0.72.0</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-          &nbsp;&bull;&nbsp;[<a href="https://github.com/alemorm/ucsf-radiology-getting-started/tree/d8279864b850493c126d51b3386ca3fcc2b1b538">d827986</a>]
+          &nbsp;&bull;&nbsp;[<a href="https://github.com/alemorm/ucsf-radiology-getting-started/tree/b5f73e56be8e3999d0323129ec490c6e5cf628e0">b5f73e5</a>]
           
         </p>
       </div>
