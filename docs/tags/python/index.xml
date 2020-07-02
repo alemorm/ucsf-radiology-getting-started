@@ -41,7 +41,7 @@ mkdir -p /data/knee_mri4/pferreira/4_analysis/dioscoridess/cfgs mkdir -p /data/k
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/jupyterinfo/</guid>
       <description>Jupyter Resources One of the simplest and most versatile ways to use python is through Jupyter Lab. In order to get it working within your virtual environment, follow these steps:
-Installation  Follow the earlier steps to SSH into one of the servers. Activate your virtual environment Run the following commands:  If you created an empty environment, use the following command first:  conda install jupyterlab -y   jupyter lab --no-browser --port 9XXX --notebook-dir=/  Replace 9XXX with the number used for the SSH port forwarding  e.</description>
+Installation  Follow the earlier steps to SSH into one of the login node servers. Activate your virtual environment Run the following commands:  If you created an empty environment, use the following command first:  conda install jupyterlab -y   jupyter lab --no-browser --port 9XXX --notebook-dir=/  Replace 9XXX with the number used for the SSH port forwarding  e.</description>
     </item>
     
     <item>

@@ -9,7 +9,7 @@ One of the simplest and most versatile ways to use python is through Jupyter Lab
 
 ### Installation
 
-- [Follow the earlier steps to SSH into one of the servers.][serveraccessres]
+- [Follow the earlier steps to SSH into one of the **login node servers**.][serveraccessres]
 - [Activate your virtual environment][pythonres]
 - Run the following commands:
   - If you created an empty environment, use the following command
