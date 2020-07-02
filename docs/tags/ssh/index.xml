@@ -13,14 +13,11 @@
     
     <item>
       <title></title>
-      <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/serveraccessinfo/</link>
+      <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/sshinfo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
-      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/serveraccessinfo/</guid>
-      <description>Radiology Server Access All of the imaging and medical patient data is located within UCSF Radiology encrypted Linux servers. Here is how to access them:
-List of Radiology servers Please refer to the full list of Radiology servers (requires UCSF login) for a comprehensive list of servers grouped by CPU and GPU resources.
- Here are the two main ways to access the servers:
-SSH Mac and Linux users  Open a terminal and type the following:  ssh username@servername.</description>
+      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/sshinfo/</guid>
+      <description>SSH Mac and Linux users  Open a terminal and type the following:  ssh username@servername.radiology.ucsf.edu -L 9XXX:localhost:9XXX For the above command make sure to replace the username with your own, the servername with any of the listed server names (requires UCSF login) and the 9XXX with a number above 9020 There will be a prompt for your UCSF password    PC users  Use WSL, PuTTY, Cygwin or any other SSH tool:  Use servername.</description>
     </item>
     
   </channel>

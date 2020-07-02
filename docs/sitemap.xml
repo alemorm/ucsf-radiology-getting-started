@@ -54,8 +54,15 @@
   </url>
   
   <url>
-    <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/serveraccessinfo/</loc>
-    <lastmod>2020-07-01T13:28:38-07:00</lastmod>
+    <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/serverinfo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/sshinfo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/vncinfo/</loc>
   </url>
   
   <url>
@@ -109,7 +116,6 @@
   
   <url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/ssh/</loc>
-    <lastmod>2020-07-01T13:28:38-07:00</lastmod>
   </url>
   
   <url>
@@ -119,7 +125,6 @@
   
   <url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/vnc/</loc>
-    <lastmod>2020-07-01T13:28:38-07:00</lastmod>
   </url>
   
 </urlset>

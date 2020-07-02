@@ -17,5 +17,6 @@ Git is a powerful versioning control system that allows you to keep track of cha
   - [Git Tutorial][gittut]
   - [Software Development for Scientists][softwaredev]
 
+<!-- Links -->
 [gittut]: /materials/git_tutorial.pdf
 [softwaredev]: /materials/Software_Development_for_Scientists.pdf

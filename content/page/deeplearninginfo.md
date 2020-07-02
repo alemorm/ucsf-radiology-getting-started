@@ -27,6 +27,7 @@ Here are two popular and powerful machine learning libraries used for deep learn
 
 DioscoriDESS is a segmentation framework developed by UCSF Radiology. Instructions for how to use it can be found [here][dioscoridess].
 
+<!-- Links -->
 [machinelearningedu]: /page/machinelearningedu
 [pythonres]: /page/pythoninfo
 [dioscoridess]: /page/dioscoridess

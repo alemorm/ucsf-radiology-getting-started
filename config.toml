@@ -74,9 +74,27 @@ pygmentCodeFences = true
     weight = 4
 
 [[menu.main]]
-    name = "Server Access"
-    url = "/page/serveraccessinfo"
+    identifier = "Servers"
+    name = "Servers"
     weight = 2
+
+[[menu.main]]
+    parent = "Servers"
+    name = "Server Access"
+    url = "/page/serverinfo"
+    weight = 1
+
+[[menu.main]]
+    parent = "Servers"
+    name = "SSH"
+    url = "/page/sshinfo"
+    weight = 2
+
+[[menu.main]]
+    parent = "Servers"
+    name = "VNC"
+    url = "/page/vncinfo"
+    weight = 3
 
 [[menu.main]]
     identifier = "Tools"

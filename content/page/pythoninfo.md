@@ -63,6 +63,7 @@ The servers have several versions of python, with the default version being pyth
 
 - Refer to the Scientific Computing Services (SCS) [official Python tutorial][scspython] for more advanced options (requires UCSF login)
 
+<!-- Links -->
 [anaconda]: https://www.anaconda.com/open-source
 [condacheat]: /materials/conda-cheatsheet.pdf
 [scspython]: https://wiki.radiology.ucsf.edu/bin/view/SCS/Tutorials/PythonIntro/

@@ -8,18 +8,18 @@
   <title>Getting Started</title>
   <meta property="og:title" content="Getting Started" />
   <meta name="twitter:title" content="Getting Started" />
-  <meta name="description" content="Matlab Tool Resources">
-  <meta property="og:description" content="Matlab Tool Resources">
-  <meta name="twitter:description" content="Matlab Tool Resources">
+  <meta name="description" content="Server Access Information">
+  <meta property="og:description" content="Server Access Information">
+  <meta name="twitter:description" content="Server Access Information">
   <meta name="author" content="Alejandro Morales Martinez"/>
   <link href='https://alemorm.github.io/ucsf-radiology-getting-started/materials/GitHub-Mark-Light-32px.png' rel='icon' type='image/x-icon'/>
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://alemorm.github.io/page/matlabinfo/" />
+  <meta property="og:url" content="https://alemorm.github.io/page/serverinfo/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Getting Started" />
 
   <meta name="generator" content="Hugo 0.72.0" />
-  <link rel="canonical" href="https://alemorm.github.io/page/matlabinfo/" />
+  <link rel="canonical" href="https://alemorm.github.io/page/serverinfo/" />
   <link rel="alternate" href="https://alemorm.github.io/ucsf-radiology-getting-started/index.xml" type="application/rss+xml" title="Getting Started">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -149,49 +149,22 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <h2 id="matlab-resources">Matlab Resources</h2>
-<p>The servers have many versions of Matlab. Using Matlab is quite simple, all it requires is typing the following command into a terminal in a VNC server:</p>
-<ul>
-<li><code>matlab &amp;</code></li>
-<li>The default matlab is usually R2015b, although this could change. In order to use a specific version, specify which version you would like to run:
-<ul>
-<li>e.g. <code>matlab_2013a &amp;</code></li>
-</ul>
-</li>
-<li>To check all versions of matlab available in the server, run the following command in a terminal:
-<ul>
-<li><code>bash -c &quot;compgen -c | grep -E '^matlab.*[ab]' | sort&quot;</code></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="useful-3d-visualization-app-in-matlab">Useful 3D visualization app in Matlab</h3>
-<p><a href="https://github.com/imagineStudios/Imagine-Legacy">Imagine</a> is an useful visualization tool for 3D images, to download it, use the following command:</p>
-<ul>
-<li><code>cd ~ &amp;&amp; git clone https://github.com/imagineStudios/Imagine-Legacy.git</code></li>
-</ul>
-<p>From the matlab command window, use the following commands:</p>
-<ul>
-<li><code>addpath ~/imagine</code></li>
-<li><code>figure; imagine2(3D_data)</code>
-<ul>
-<li>Replace <code>3D_data</code> with your actual 3D data array</li>
-</ul>
-</li>
-</ul>
-<!-- raw HTML omitted -->
+        <h2 id="radiology-server-access">Radiology Server Access</h2>
+<p>All of the imaging and medical patient data is located within UCSF Radiology encrypted Linux servers. Here is how to access them:</p>
+<h3 id="list-of-radiology-servers">List of Radiology servers</h3>
+<p>Please refer to the <a href="https://ucsf.box.com/s/yx3hv4trm4kniy1in0op2y7nzeukouf2">full list of Radiology servers (requires UCSF login)</a> for a comprehensive list of servers grouped by CPU and GPU resources.</p>
 
       </article>
 
       <ul class="pager blog-pager">
         
           <li class="previous">
-            <a href="https://alemorm.github.io/ucsf-radiology-getting-started/page/mriedu/" data-toggle="tooltip" data-placement="top" title="">&larr; Previous Post</a>
+            <a href="https://alemorm.github.io/ucsf-radiology-getting-started/page/sshinfo/" data-toggle="tooltip" data-placement="top" title="">&larr; Previous Post</a>
           </li>
         
         
           <li class="next">
-            <a href="https://alemorm.github.io/ucsf-radiology-getting-started/page/machinelearningedu/" data-toggle="tooltip" data-placement="top" title="">Next Post &rarr;</a>
+            <a href="https://alemorm.github.io/ucsf-radiology-getting-started/page/pythoninfo/" data-toggle="tooltip" data-placement="top" title="">Next Post &rarr;</a>
           </li>
         
       </ul>

@@ -35,9 +35,15 @@ Depending on your experience and knowledge level, here is a recommended way to a
 
 ---
 
-- ### Radiology Servers Usage
+- ### Radiology Servers
 
-  - #### [Server Access][serveraccessres] (R)
+  - #### [Server Access][serveraccess] (R)
+
+    - #### [Server List][serverlist] (R)
+
+  - #### [SSH][sshinfo] (R)
+
+  - #### [VNC][vncinfo] (R)
 
 ---
 
@@ -50,20 +56,24 @@ Depending on your experience and knowledge level, here is a recommended way to a
   - #### [Jupyter][jupyterres] (O)
 
   - #### [Deep Learning][dlres] (O)
-    
+
     - #### [DioscoriDESS] (O)
 
 ---
 
 *This website is being actively maintained and improved. [Please contact me if you experience any issues][mailme]*
 
+<!-- Links -->
 [ucsflogo]: /materials/UCSF_sublogo_RadiologyBiomedicalImaging_navy_RGB.png "UCSF logo"
 [ucsfrad]: https://radiology.ucsf.edu/
 [mrires]: /page/mriedu
 [linuxres]: /page/linuxedu
 [gitres]: /page/gitedu
 [mlres]: /page/machinelearningedu
-[serveraccessres]: /page/serveraccessinfo
+[serveraccess]: /page/serverinfo
+[serverlist]: https://ucsf.box.com/s/yx3hv4trm4kniy1in0op2y7nzeukouf2
+[sshinfo]: /page/sshinfo
+[vncinfo]: /page/vncinfo
 [matlabres]: /page/matlabinfo
 [pythonres]: /page/pythoninfo
 [jupyterres]: /page/jupyterinfo

@@ -23,5 +23,6 @@ The radiology servers are running a Linux distribution and therefore it is highl
 - **MIT Missing Semester**
   - For a more advanced dive into these concepts, the [MIT Missing Semester][missingsem] is another great resource to learn about linux.
 
+<!-- Links -->
 [linuxcheat]: /materials/linux-cheatsheet.pdf
 [missingsem]: https://missing.csail.mit.edu/

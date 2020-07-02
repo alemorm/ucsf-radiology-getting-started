@@ -27,4 +27,5 @@ From the matlab command window, use the following commands:
 - `figure; imagine2(3D_data)`
   - Replace `3D_data` with your actual 3D data array
 
+<!-- Links -->
 [imagine]: https://github.com/imagineStudios/Imagine-Legacy
