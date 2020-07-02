@@ -8,20 +8,17 @@ A collection of useful educational resources and tutorials in order to learn abo
 
 ---
 
-### Instructions
-
-Depending on your experience and knowledge level, here is a recommended way to approach the resources:
-
----
-
 {{< notice tip >}}
 
-- **Optional (O)** = not necessary to get started
-- **Required (R)** = needed to get started
+- *Depending on your experience and knowledge level, here is a recommended way to approach the resources:*
+  - **Optional (O)** = not necessary to get started
+  - **Required (R)** = needed to get started
 
 {{< /notice >}}
 
 ---
+
+## Table of Contents
 
 - ### Educational Resources
 
