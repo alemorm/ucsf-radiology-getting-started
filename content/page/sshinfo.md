@@ -5,6 +5,14 @@ tags: [ssh,linux]
 
 ## SSH
 
+The [SSH] (Secure Shell) protocol is an encrypted communication protocol for networking. It is a highly versatile and powerful tool that serves as the main way to access the servers.
+
+---
+
+### Setup
+
+Depending on the operating system you are using, follow these options:
+
 #### Mac and Linux users
 
 - Open a terminal and type the following:
@@ -20,6 +28,7 @@ tags: [ssh,linux]
   - There will be a prompt for your UCSF password
 
 <!-- Links -->
+[ssh]: https://en.wikipedia.org/wiki/Secure_Shell
 [ucsfservers]: https://ucsf.box.com/s/yx3hv4trm4kniy1in0op2y7nzeukouf2
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
 [putty]: https://www.ssh.com/ssh/putty/download
