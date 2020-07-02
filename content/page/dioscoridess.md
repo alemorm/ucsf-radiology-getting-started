@@ -1,9 +1,9 @@
 ---
-subtitle: "Dioscoridess Tool Resources"
+subtitle: "DioscoriDESS Tool Resources"
 tags: ["deeplearning", "python"]
 ---
 
-# Dioscoridess
+# DioscoriDESS
 
 ---
 
@@ -93,7 +93,7 @@ tags: ["deeplearning", "python"]
     source activate /netopt/share/bin/local/bone/conda_envs/envs/dioscoridess_tf-1.12_py-3.6
     ```
 
-4. Run dioscoridess:
+4. Run DioscoriDESS:
 
     ```bash
     cd /data/i2/software/dioscoridess
