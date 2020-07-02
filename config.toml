@@ -52,7 +52,7 @@ pygmentCodeFences = true
 [[menu.main]]
     parent = "Education"
     name = "MRI"
-    url = "/page/mriredu"
+    url = "/page/mriedu"
     weight = 1
 
 [[menu.main]]
