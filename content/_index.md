@@ -44,7 +44,7 @@ A collection of useful educational resources and tutorials in order to learn abo
 
   - #### [VNC][vncinfo] (R)
 
-  - #### [Scanner Information][scannerinfo] (R)
+  - #### [Scanner Information][scannerinfo] (O)
 
 ---
 
