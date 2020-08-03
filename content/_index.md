@@ -32,8 +32,10 @@ A collection of useful educational resources and tutorials in order to learn abo
 
 ---
 
-- ### Radiology Servers
+- ### Radiology
 
+  - #### [Onboarding checklist][onboarding] (R)
+  
   - #### [Server Access][serveraccess] (R)
 
     - #### [Server List][serverlist] (R)
