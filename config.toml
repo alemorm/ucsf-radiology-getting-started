@@ -103,6 +103,12 @@ pygmentCodeFences = true
     weight = 4
 
 [[menu.main]]
+    parent = "Radiology"
+    name = "Scanners"
+    url = "/page/scannerinfo"
+    weight = 5
+
+[[menu.main]]
     identifier = "Tools"
     name = "Tools"
     weight = 3

@@ -3,7 +3,7 @@ subtitle: "Onboarding Checklist"
 tags: ["onboarding", "git"]
 ---
 
-# Checklist
+# Onboarding Checklist
 
 ---
 

@@ -44,6 +44,8 @@ A collection of useful educational resources and tutorials in order to learn abo
 
   - #### [VNC][vncinfo] (R)
 
+  - #### [Scanner Information][scannerinfo] (R)
+
 ---
 
 - ### Computational Tools
@@ -74,6 +76,7 @@ A collection of useful educational resources and tutorials in order to learn abo
 [serverlist]: https://ucsf.box.com/s/yx3hv4trm4kniy1in0op2y7nzeukouf2
 [sshinfo]: /page/sshinfo
 [vncinfo]: /page/vncinfo
+[scannerinfo]: /page/scannerinfo
 [matlabres]: /page/matlabinfo
 [pythonres]: /page/pythoninfo
 [jupyterres]: /page/jupyterinfo
