@@ -79,6 +79,12 @@ pygmentCodeFences = true
     weight = 2
 
 [[menu.main]]
+    parent = "Onboarding checklist"
+    name = "VNC"
+    url = "/page/onboarding"
+    weight = 3
+    
+[[menu.main]]
     parent = "Servers"
     name = "Server Access"
     url = "/page/serverinfo"
