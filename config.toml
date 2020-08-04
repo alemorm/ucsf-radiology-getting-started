@@ -74,33 +74,33 @@ pygmentCodeFences = true
     weight = 4
 
 [[menu.main]]
-    identifier = "Servers"
-    name = "Servers"
+    identifier = "Radiology"
+    name = "Radiology"
     weight = 2
 
 [[menu.main]]
-    parent = "Onboarding checklist"
-    name = "VNC"
+    parent = "Radiology"
+    name = "Onboarding"
     url = "/page/onboarding"
-    weight = 3
+    weight = 1
     
 [[menu.main]]
-    parent = "Servers"
+    parent = "Radiology"
     name = "Server Access"
     url = "/page/serverinfo"
-    weight = 1
-
-[[menu.main]]
-    parent = "Servers"
-    name = "SSH"
-    url = "/page/sshinfo"
     weight = 2
 
 [[menu.main]]
-    parent = "Servers"
+    parent = "Radiology"
+    name = "SSH"
+    url = "/page/sshinfo"
+    weight = 3
+
+[[menu.main]]
+    parent = "Radiology"
     name = "VNC"
     url = "/page/vncinfo"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
     identifier = "Tools"

@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>git on Getting Started</title>
-    <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/git/</link>
-    <description>Recent content in git on Getting Started</description>
+    <title>onboarding on Getting Started</title>
+    <link>https://alemorm.github.io/ucsf-radiology-getting-started/tags/onboarding/</link>
+    <description>Recent content in onboarding on Getting Started</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</managingEditor>
     <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster>
     
-	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/onboarding/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title></title>
-      <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitedu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
-      <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitedu/</guid>
-      <description>Git Resources Git is a powerful versioning control system that allows you to keep track of changes for your files. Additionally, it allows for collaboration with other people on the same project. It is recommended to develop your work using a versioning tool such as git.
- Quick Git Intro      Peder Larson Group:  Git Tutorial Software Development for Scientists    </description>
-    </item>
     
     <item>
       <title></title>

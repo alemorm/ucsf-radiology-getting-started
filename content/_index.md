@@ -34,7 +34,7 @@ A collection of useful educational resources and tutorials in order to learn abo
 
 - ### Radiology
 
-  - #### [Onboarding checklist][onboarding] (R)
+  - #### [Onboarding Checklist][onboarding] (R)
   
   - #### [Server Access][serveraccess] (R)
 
@@ -69,6 +69,7 @@ A collection of useful educational resources and tutorials in order to learn abo
 [linuxres]: /page/linuxedu
 [gitres]: /page/gitedu
 [mlres]: /page/machinelearningedu
+[onboarding]: /page/onboarding
 [serveraccess]: /page/serverinfo
 [serverlist]: https://ucsf.box.com/s/yx3hv4trm4kniy1in0op2y7nzeukouf2
 [sshinfo]: /page/sshinfo

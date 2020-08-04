@@ -19,7 +19,6 @@ tags: ["deeplearning", "python"]
     mkdir -p /MY_PATH/dioscoridess/cfgs
     mkdir -p /MY_PATH/dioscoridess/logs
     mkdir -p /MY_PATH/dioscoridess/ckpt
-
     ```
 
 2. Create your yaml file and save in `/MY_PATH/dioscoridess/cfgs/my_input.yaml`:
