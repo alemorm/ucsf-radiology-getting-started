@@ -9,20 +9,20 @@ tags: ["deeplearning", "python"]
 
 {{< notice note >}}
 
-- Make sure to replace `/data/knee_mri4/pferreira/4_analysis/dioscoridess/` with a location of your choice.
+- Make sure to replace `/MY_PATH/dioscoridess/` with a location of your choice.
 
 {{< /notice >}}
 
 1. Make a directory where your input files (.yaml) and output files (.h5) will be stored:
 
     ```bash
-    mkdir -p /data/knee_mri4/pferreira/4_analysis/dioscoridess/cfgs
-    mkdir -p /data/knee_mri4/pferreira/4_analysis/dioscoridess/logs
-    mkdir -p /data/knee_mri4/pferreira/4_analysis/dioscoridess/ckpt
+    mkdir -p /MY_PATH/dioscoridess/cfgs
+    mkdir -p /MY_PATH/dioscoridess/logs
+    mkdir -p /MY_PATH/dioscoridess/ckpt
 
     ```
 
-2. Create your yaml file and save in `/data/knee_mri4/pferreira/4_analysis/dioscoridess/cfgs/my_input.yaml`:
+2. Create your yaml file and save in `/MY_PATH/dioscoridess/cfgs/my_input.yaml`:
 
     ```yaml
     # Sample ./yaml config file
@@ -97,7 +97,7 @@ tags: ["deeplearning", "python"]
 
     ```bash
     cd /data/i2/software/dioscoridess
-    python main.py --cfg /data/knee_mri4/pferreira/4_analysis/dioscoridess/cfgs/my_input.yaml --desc test
+    python main.py --cfg /MY_PATH/dioscoridess/cfgs/my_input.yaml --desc test
     ```
 
 ---
