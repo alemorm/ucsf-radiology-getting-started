@@ -15,6 +15,8 @@ tags: ['mri']
 
 - **GE 7T**: used for mostly brain studies
 
+---
+
 <!-- Links -->
 [ucsfimaging]: http://cancer.ucsf.edu/research/cores/imaging/
 [MB3T7T]: mailto:SurbeckLab@ucsf.edu

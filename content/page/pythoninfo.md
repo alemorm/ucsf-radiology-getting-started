@@ -12,7 +12,7 @@ The servers have several versions of python, with the default version being pyth
 ### Set up a virtual environment
 
 - Use the following command to initialize the latest conda in the servers:
-  - `` `which conda | sed -E 's:.*[ ](/.*l7).+:\1/\*/\*/\*3-edge/bin/conda:'` init bash tcsh``
+  - ``/netopt/rhel7/versions/python/Anaconda3-edge/bin/conda init bash tcsh``
   - Close the current terminal and open a new one for the changes to take place
 
 - Use the following commands to set up the directory where the python environments and packages will be stored:
@@ -95,6 +95,8 @@ After that you are free to `activate` your new environment and `pip install` any
 ### Advanced
 
 - Refer to the Scientific Computing Services (SCS) [official Python tutorial][scspython] for more advanced options (requires UCSF login)
+
+---
 
 <!-- Links -->
 [anaconda]: https://www.anaconda.com/open-source

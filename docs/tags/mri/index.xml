@@ -6,11 +6,7 @@
     <description>Recent content in MRI on Getting Started</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</managingEditor>
-    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster>
-    
-	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/mri/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster><atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/mri/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/mriedu/</link>
@@ -24,7 +20,7 @@
   MRI Acquisition and Artifacts
   MRI Glossary
   MRI Acronyms
-    </description>
+     </description>
     </item>
     
     <item>
@@ -36,7 +32,7 @@
       <description>UCSF Research Imaging Systems  MR Scanners and Equipment To schedule scanner time, check the MB3T7T Outlook calendar and ask Dan Vigneron or Peder Larson about open slots.
   GE 3T: used for most clinical studies, all hyperpolarized studies, some preclinical studies. See MRI technologist for available coil and phantom setups.
   GE 7T: used for mostly brain studies
-  </description>
+   </description>
     </item>
     
   </channel>

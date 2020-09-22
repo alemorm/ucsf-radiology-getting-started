@@ -27,6 +27,8 @@ Helpful introductions to MRI physics, image formation, image artifacts and termi
 
   - [*MRI Acronyms*][mriacro]
 
+---
+
 <!-- Links -->
 [alberteinstein]: https://www.youtube.com/watch?v=35gfOtjRcic&list=PLPcImQzEnTpz-5TzxyyoYSbiAa9xdd89l
 [pederlarson]: https://radiology.ucsf.edu/research/labs/larson/educational-materials

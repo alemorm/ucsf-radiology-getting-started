@@ -6,11 +6,7 @@
     <description>Recent content in Pages on Getting Started</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</managingEditor>
-    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster>
-    
-	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/page/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster><atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/deeplearninginfo/</link>
@@ -41,7 +37,7 @@ mkdir -p /MY_PATH/dioscoridess/cfgs mkdir -p /MY_PATH/dioscoridess/logs mkdir -p
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitedu/</guid>
       <description>Git Resources Git is a powerful versioning control system that allows you to keep track of changes for your files. Additionally, it allows for collaboration with other people on the same project. It is recommended to develop your work using a versioning tool such as git.
- Quick Git Intro      Peder Larson Group:  Git Tutorial Software Development for Scientists    </description>
+ Quick Git Intro      Peder Larson Group:  Git Tutorial Software Development for Scientists     </description>
     </item>
     
     <item>
@@ -74,7 +70,7 @@ Installation  Follow the earlier steps to SSH into one of the login node servers
       <description>Machine Learning Resources Helpful Stanford introductory course to Machine Learning.
     Stanford CS229: Machine Learning Overview   Deep Learning Resources Helpful Stanford introductory course to Deep Learning and Convolutional Neural Networks (CNN).
     Stanford CS231n: Convolutional Neural Networks for Visual Recognition   Useful 3blue1brown educational video on CNNs
-  </description>
+   </description>
     </item>
     
     <item>
@@ -100,7 +96,7 @@ Installation  Follow the earlier steps to SSH into one of the login node servers
   MRI Acquisition and Artifacts
   MRI Glossary
   MRI Acronyms
-    </description>
+     </description>
     </item>
     
     <item>
@@ -109,7 +105,7 @@ Installation  Follow the earlier steps to SSH into one of the login node servers
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/onboarding/</guid>
-      <description>Onboarding Checklist  1. Get a Zoom account:  Email Ana Maria Deluca and include a sentence on who you are and which group you belong to   2. Get two-factor authentication  3. Get Pulse secure VPN access  4. Request git access .notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Note
+      <description>Onboarding Checklist  1. Get a Zoom account:  Email Ana Maria Deluca a brief description of who you are and which group you belong to   2. Get two-factor authentication  3. Get Pulse secure VPN access  4. Request Radiology GitHub access (requires UCSF login) .notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Note
  Write Radiology under Additional Information at the bottom of the form.</description>
     </item>
     
@@ -121,7 +117,7 @@ Installation  Follow the earlier steps to SSH into one of the login node servers
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/pythoninfo/</guid>
       <description>Python Resources The servers have several versions of python, with the default version being python 2.7. The best practice when coding in python is to set up a virtual environment with the libraries you will be using. To do this, follow these steps:
  Set up a virtual environment   Use the following command to initialize the latest conda in the servers:
-  `which conda | sed -E &#39;s:.</description>
+ /netopt/rhel7/versions/python/Anaconda3-edge/bin/conda init bash tcsh Close the current terminal and open a new one for the changes to take place    Use the following commands to set up the directory where the python environments and packages will be stored:</description>
     </item>
     
     <item>
@@ -133,7 +129,7 @@ Installation  Follow the earlier steps to SSH into one of the login node servers
       <description>UCSF Research Imaging Systems  MR Scanners and Equipment To schedule scanner time, check the MB3T7T Outlook calendar and ask Dan Vigneron or Peder Larson about open slots.
   GE 3T: used for most clinical studies, all hyperpolarized studies, some preclinical studies. See MRI technologist for available coil and phantom setups.
   GE 7T: used for mostly brain studies
-  </description>
+   </description>
     </item>
     
     <item>
@@ -143,7 +139,8 @@ Installation  Follow the earlier steps to SSH into one of the login node servers
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/serverinfo/</guid>
       <description>Radiology Server Access All of the imaging and medical patient data is located within UCSF Radiology encrypted Linux servers. Here is how to access them:
-List of Radiology servers Please refer to the full list of Radiology servers (requires UCSF login) for a comprehensive list of servers grouped by CPU and GPU resources.</description>
+List of Radiology servers Please refer to the full list of Radiology servers (requires UCSF login) for a comprehensive list of servers grouped by CPU and GPU resources.
+ </description>
     </item>
     
     <item>

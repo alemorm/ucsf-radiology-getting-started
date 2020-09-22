@@ -6,11 +6,7 @@
     <description>Recent content in linux on Getting Started</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</managingEditor>
-    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster>
-    
-	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster><atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitedu/</link>
@@ -18,7 +14,7 @@
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitedu/</guid>
       <description>Git Resources Git is a powerful versioning control system that allows you to keep track of changes for your files. Additionally, it allows for collaboration with other people on the same project. It is recommended to develop your work using a versioning tool such as git.
- Quick Git Intro      Peder Larson Group:  Git Tutorial Software Development for Scientists    </description>
+ Quick Git Intro      Peder Larson Group:  Git Tutorial Software Development for Scientists     </description>
     </item>
     
     <item>
@@ -39,7 +35,8 @@
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/serverinfo/</guid>
       <description>Radiology Server Access All of the imaging and medical patient data is located within UCSF Radiology encrypted Linux servers. Here is how to access them:
-List of Radiology servers Please refer to the full list of Radiology servers (requires UCSF login) for a comprehensive list of servers grouped by CPU and GPU resources.</description>
+List of Radiology servers Please refer to the full list of Radiology servers (requires UCSF login) for a comprehensive list of servers grouped by CPU and GPU resources.
+ </description>
     </item>
     
     <item>
