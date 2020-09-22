@@ -54,26 +54,25 @@ The servers have several versions of python, with the default version being pyth
   - `conda deactivate`
 
 ---
+
 ### Using a shared virtual environment
 
-Several virtual environments were created and are available for you to use. 
+The following virtual environments were created and available for use under the directory `/netopt/share/bin/local/bone/conda_envs/envs/`:
+
+- brain_py-3.7
+- dioscoridess_tf-1.12_py-3.6
+- knee_pipeline_tf-1.12_py-3.6
+- pytorch  
+- tf-2.0_py-3.6
+
+They can be activated by running:
 
 ```sh
-user@bone-vm1:~$ ls /netopt/share/bin/local/bone/conda_envs/envs/
-brain_py-3.7  dioscoridess_tf-1.12_py-3.6  knee_pipeline_tf-1.12_py-3.6  pytorch  tf-2.0_py-3.6
+conda activate /netopt/share/bin/local/bone/conda_envs/envs/tf-2.0_py-3.6
 ```
-
-They can be used by simply running:
-
-```sh
-bash
-source activate /netopt/share/bin/local/bone/conda_envs/envs/tf-2.0_py-3.6
-```
-Provided you are using conda-3.
-
-ps: Make sure you have conda-3 added to your PATH by, for instance, adding `export PATH=/netopt/rhel7/versions/python/Anaconda3-5.2.0/bin:/bin:$PATH` to your ~/.bash_profile
 
 ---
+
 ### Copying and modifying a shared virtual environment
 
 The shared environments are, by design, read only. If you would like to install other libraries in one of these environments, first clone it into a location of your choice:
@@ -82,9 +81,7 @@ The shared environments are, by design, read only. If you would like to install 
 conda create --clone /netopt/share/bin/local/bone/conda_envs/envs/tf-2.0_py-3.6 --prefix PATH
 ```
 
-Where `PATH` is the full path to where you want the environment to be created.
-
-After that you are free to `activate` your new environment and `pip install` any libraries of choice.
+Where `PATH` is the full path to where you want the environment to be created. After that you are free to `conda activate` your new environment and install any libraries of choice.
 
 ---
 
