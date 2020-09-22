@@ -234,6 +234,27 @@ if (!doNotTrack) {
 </li>
 </ul>
 <hr>
+<h3 id="using-a-shared-virtual-environment">Using a shared virtual environment</h3>
+<p>The following virtual environments were created and available for use under the directory <code>/netopt/share/bin/local/bone/conda_envs/envs/</code>:</p>
+<ul>
+<li><code>brain_py-3.7</code></li>
+<li><code>dioscoridess_tf-1.12_py-3.6</code></li>
+<li><code>knee_pipeline_tf-1.12_py-3.6</code></li>
+<li><code>pytorch  </code></li>
+<li><code>tf-2.0_py-3.6</code></li>
+</ul>
+<p>They can be activated by running:</p>
+<ul>
+<li><code>conda activate /netopt/share/bin/local/bone/conda_envs/envs/tf-2.0_py-3.6</code></li>
+</ul>
+<hr>
+<h3 id="copying-and-modifying-a-shared-virtual-environment">Copying and modifying a shared virtual environment</h3>
+<p>The shared environments are, by design, read only. If you would like to install other libraries in one of these environments, first clone it into a location of your choice:</p>
+<ul>
+<li><code>conda create --clone /netopt/share/bin/local/bone/conda_envs/envs/tf-2.0_py-3.6 --prefix PATH</code></li>
+</ul>
+<p>Where <code>PATH</code> is the full path to where you want the environment to be created. After that you are free to <code>conda activate</code> your new environment and install any libraries of choice.</p>
+<hr>
 <h3 id="conda-cheatsheetcondacheat"><a href="https://alemorm.github.io/ucsf-radiology-getting-started/materials/conda-cheatsheet.pdf">Conda CheatSheet</a></h3>
 <hr>
 <h3 id="advanced">Advanced</h3>
@@ -319,7 +340,7 @@ if (!doNotTrack) {
         
         <p class="credits theme-by text-muted">
           <a href="http://gohugo.io">Hugo v0.75.1</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-          &nbsp;&bull;&nbsp;[<a href="https://github.com/alemorm/ucsf-radiology-getting-started/tree/863a44b25a98438cba55647aacede57b904891ca">863a44b</a>]
+          &nbsp;&bull;&nbsp;[<a href="https://github.com/alemorm/ucsf-radiology-getting-started/tree/06623c7ca5b57b3e7b0ec47f48b017d90536637d">06623c7</a>]
           
         </p>
       </div>

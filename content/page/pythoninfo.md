@@ -55,6 +55,32 @@ The servers have several versions of python, with the default version being pyth
 
 ---
 
+### Using a shared virtual environment
+
+The following virtual environments were created and available for use under the directory `/netopt/share/bin/local/bone/conda_envs/envs/`:
+
+- `brain_py-3.7`
+- `dioscoridess_tf-1.12_py-3.6`
+- `knee_pipeline_tf-1.12_py-3.6`
+- `pytorch  `
+- `tf-2.0_py-3.6`
+
+They can be activated by running:
+
+- ```conda activate /netopt/share/bin/local/bone/conda_envs/envs/tf-2.0_py-3.6```
+
+---
+
+### Copying and modifying a shared virtual environment
+
+The shared environments are, by design, read only. If you would like to install other libraries in one of these environments, first clone it into a location of your choice:
+
+- ```conda create --clone /netopt/share/bin/local/bone/conda_envs/envs/tf-2.0_py-3.6 --prefix PATH```
+
+Where `PATH` is the full path to where you want the environment to be created. After that you are free to `conda activate` your new environment and install any libraries of choice.
+
+---
+
 ### [Conda CheatSheet][condacheat]
 
 ---
