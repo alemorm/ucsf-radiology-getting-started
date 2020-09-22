@@ -18,7 +18,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Getting Started" />
 
-  <meta name="generator" content="Hugo 0.72.0" />
+  <meta name="generator" content="Hugo 0.75.1" />
   <link rel="canonical" href="https://alemorm.github.io/page/dioscoridess/" />
   <link rel="alternate" href="https://alemorm.github.io/ucsf-radiology-getting-started/index.xml" type="application/rss+xml" title="Getting Started">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
@@ -171,63 +171,63 @@ mkdir -p /MY_PATH/dioscoridess/ckpt
 <li>
 <p>Create your yaml file and save in <code>/MY_PATH/dioscoridess/cfgs/my_input.yaml</code>:</p>
 <div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="c"># Sample ./yaml config file</span><span class="w">
-</span><span class="w"></span><span class="k">common</span><span class="p">:</span><span class="w">
-</span><span class="w"></span><span class="k">seed</span><span class="p">:</span><span class="w"> </span><span class="m">1234</span><span class="w">
-</span><span class="w"></span><span class="k">vis_GPU</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;1&#39;</span><span class="w"> </span><span class="c">#single GPU compatibility</span><span class="w">
-</span><span class="w"></span><span class="k">log_path</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;./experiments/training/logs/&#39;</span><span class="w">
-</span><span class="w"></span><span class="k">save_path</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;./experiments/training/ckpt/&#39;</span><span class="w">
-</span><span class="w"></span><span class="k">print_freq</span><span class="p">:</span><span class="w"> </span><span class="m">25</span><span class="w">
+</span><span class="w"></span><span class="nt">common</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="nt">seed</span><span class="p">:</span><span class="w"> </span><span class="m">1234</span><span class="w">
+</span><span class="w"></span><span class="nt">vis_GPU</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;1&#39;</span><span class="w"> </span><span class="c">#single GPU compatibility</span><span class="w">
+</span><span class="w"></span><span class="nt">log_path</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;./experiments/training/logs/&#39;</span><span class="w">
+</span><span class="w"></span><span class="nt">save_path</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;./experiments/training/ckpt/&#39;</span><span class="w">
+</span><span class="w"></span><span class="nt">print_freq</span><span class="p">:</span><span class="w"> </span><span class="m">25</span><span class="w">
 </span><span class="w">
-</span><span class="w"></span><span class="k">data_train</span><span class="p">:</span><span class="w">
-</span><span class="w"></span><span class="k">data_root</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;/data/bigbone5/JacobOeding/DL_code/splits/axial_train.csv&#39;</span><span class="w">
-</span><span class="w"></span><span class="k">batch_size</span><span class="p">:</span><span class="w"> </span><span class="m">4</span><span class="w">
-</span><span class="w"></span><span class="k">im_dims</span><span class="p">:</span><span class="w"> </span><span class="cp">!!python/tuple</span><span class="w"> </span><span class="p">[</span><span class="m">512</span><span class="p">,</span><span class="w"> </span><span class="m">512</span><span class="p">]</span><span class="w">
-</span><span class="w"></span><span class="k">crop </span><span class="p">:</span><span class="w"> </span><span class="cp">!!python/tuple</span><span class="w"> </span><span class="p">[</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">]</span><span class="w">
-</span><span class="w"></span><span class="k">num_classes</span><span class="p">:</span><span class="w"> </span><span class="m">3</span><span class="w">
-</span><span class="w"></span><span class="k">idx_classes </span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">]</span><span class="w">
-</span><span class="w"></span><span class="k">num_channels</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
-</span><span class="w"></span><span class="k">normalization_file</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;/data/bigbone5/JacobOeding/DL_code/dataInfo/Axial_MinMaxDataset.csv&#39;</span><span class="w">
+</span><span class="w"></span><span class="nt">data_train</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="nt">data_root</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;/data/bigbone5/JacobOeding/DL_code/splits/axial_train.csv&#39;</span><span class="w">
+</span><span class="w"></span><span class="nt">batch_size</span><span class="p">:</span><span class="w"> </span><span class="m">4</span><span class="w">
+</span><span class="w"></span><span class="nt">im_dims</span><span class="p">:</span><span class="w"> </span><span class="cp">!!python/tuple</span><span class="w"> </span><span class="p">[</span><span class="m">512</span><span class="p">,</span><span class="w"> </span><span class="m">512</span><span class="p">]</span><span class="w">
+</span><span class="w"></span><span class="nt">crop </span><span class="p">:</span><span class="w"> </span><span class="cp">!!python/tuple</span><span class="w"> </span><span class="p">[</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">]</span><span class="w">
+</span><span class="w"></span><span class="nt">num_classes</span><span class="p">:</span><span class="w"> </span><span class="m">3</span><span class="w">
+</span><span class="w"></span><span class="nt">idx_classes </span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">]</span><span class="w">
+</span><span class="w"></span><span class="nt">num_channels</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
+</span><span class="w"></span><span class="nt">normalization_file</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;/data/bigbone5/JacobOeding/DL_code/dataInfo/Axial_MinMaxDataset.csv&#39;</span><span class="w">
 </span><span class="w">
-</span><span class="w"></span><span class="k">data_val</span><span class="p">:</span><span class="w">
-</span><span class="w"></span><span class="k">data_root </span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;/data/bigbone5/JacobOeding/DL_code/splits/axial_val_onlySegmentedSlices.csv&#39;</span><span class="w">
-</span><span class="w"></span><span class="k">batch_size</span><span class="p">:</span><span class="w"> </span><span class="m">4</span><span class="w">
-</span><span class="w"></span><span class="k">im_dims</span><span class="p">:</span><span class="w"> </span><span class="cp">!!python/tuple</span><span class="w"> </span><span class="p">[</span><span class="m">512</span><span class="p">,</span><span class="w"> </span><span class="m">512</span><span class="p">]</span><span class="w">
-</span><span class="w"></span><span class="k">crop </span><span class="p">:</span><span class="w"> </span><span class="cp">!!python/tuple</span><span class="w"> </span><span class="p">[</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">]</span><span class="w">
-</span><span class="w"></span><span class="k">num_classes</span><span class="p">:</span><span class="w"> </span><span class="m">3</span><span class="w">
-</span><span class="w"></span><span class="k">idx_classes </span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">]</span><span class="w">
-</span><span class="w"></span><span class="k">num_channels</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
-</span><span class="w"></span><span class="k">normalization_file</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;/data/bigbone5/JacobOeding/DL_code/dataInfo/Axial_MinMaxDataset.csv&#39;</span><span class="w">
-</span><span class="w"></span><span class="k">evaluate_mode</span><span class="p">:</span><span class="w"> </span>True<span class="w">
+</span><span class="w"></span><span class="nt">data_val</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="nt">data_root </span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;/data/bigbone5/JacobOeding/DL_code/splits/axial_val_onlySegmentedSlices.csv&#39;</span><span class="w">
+</span><span class="w"></span><span class="nt">batch_size</span><span class="p">:</span><span class="w"> </span><span class="m">4</span><span class="w">
+</span><span class="w"></span><span class="nt">im_dims</span><span class="p">:</span><span class="w"> </span><span class="cp">!!python/tuple</span><span class="w"> </span><span class="p">[</span><span class="m">512</span><span class="p">,</span><span class="w"> </span><span class="m">512</span><span class="p">]</span><span class="w">
+</span><span class="w"></span><span class="nt">crop </span><span class="p">:</span><span class="w"> </span><span class="cp">!!python/tuple</span><span class="w"> </span><span class="p">[</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">]</span><span class="w">
+</span><span class="w"></span><span class="nt">num_classes</span><span class="p">:</span><span class="w"> </span><span class="m">3</span><span class="w">
+</span><span class="w"></span><span class="nt">idx_classes </span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">]</span><span class="w">
+</span><span class="w"></span><span class="nt">num_channels</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
+</span><span class="w"></span><span class="nt">normalization_file</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;/data/bigbone5/JacobOeding/DL_code/dataInfo/Axial_MinMaxDataset.csv&#39;</span><span class="w">
+</span><span class="w"></span><span class="nt">evaluate_mode</span><span class="p">:</span><span class="w"> </span><span class="kc">True</span><span class="w">
 </span><span class="w">
-</span><span class="w"></span><span class="k">dataLoader_folder</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;dataLoader&#39;</span><span class="w">
-</span><span class="w"></span><span class="k">learn</span><span class="p">:</span><span class="w">
-</span><span class="w"></span><span class="k">max_steps</span><span class="p">:</span><span class="w"> </span><span class="m">500000</span><span class="w"> </span><span class="c"># instead of epochs</span><span class="w">
-</span><span class="w"></span><span class="k">lr </span><span class="p">:</span><span class="w"> </span><span class="m">0.00005</span><span class="w">
-</span><span class="w"></span><span class="k">optimizer</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;adam&#39;</span><span class="w">
-</span><span class="w"></span><span class="k">loss</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;dice_loss_softmax&#39;</span><span class="w">
-</span><span class="w"></span><span class="k">metrics</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;dice_score&#39;</span><span class="w">
-</span><span class="w"></span><span class="k">weights</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="m">1</span><span class="p">,</span><span class="m">1.2</span><span class="p">,</span><span class="m">1</span><span class="p">]</span><span class="w">
-</span><span class="w"></span><span class="k">num_classes</span><span class="p">:</span><span class="w"> </span><span class="m">3</span><span class="w">
-</span><span class="w"></span><span class="k">dataloader</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;data_loader&#39;</span><span class="w">
-</span><span class="w"></span><span class="k">comp</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;femur&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;tibia&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;background&#39;</span><span class="p">]</span><span class="w">
-</span><span class="w"></span><span class="k">key_slice</span><span class="p">:</span><span class="w"> </span><span class="cp">!!python/tuple</span><span class="w"> </span><span class="p">[</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">]</span><span class="w">
-</span><span class="w"></span><span class="k">patience</span><span class="p">:</span><span class="w"> </span><span class="m">15</span><span class="w"> </span><span class="c"># in number of validation runs</span><span class="w">
-</span><span class="w"></span><span class="k">keep_prob </span><span class="p">:</span><span class="w"> </span><span class="m">0.95</span><span class="w">
-</span><span class="w"></span><span class="k">val_freq </span><span class="p">:</span><span class="w"> </span><span class="m">75</span><span class="w"> </span><span class="c"># in steps</span><span class="w">
+</span><span class="w"></span><span class="nt">dataLoader_folder</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;dataLoader&#39;</span><span class="w">
+</span><span class="w"></span><span class="nt">learn</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="nt">max_steps</span><span class="p">:</span><span class="w"> </span><span class="m">500000</span><span class="w"> </span><span class="c"># instead of epochs</span><span class="w">
+</span><span class="w"></span><span class="nt">lr </span><span class="p">:</span><span class="w"> </span><span class="m">0.00005</span><span class="w">
+</span><span class="w"></span><span class="nt">optimizer</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;adam&#39;</span><span class="w">
+</span><span class="w"></span><span class="nt">loss</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;dice_loss_softmax&#39;</span><span class="w">
+</span><span class="w"></span><span class="nt">metrics</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;dice_score&#39;</span><span class="w">
+</span><span class="w"></span><span class="nt">weights</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="m">1</span><span class="p">,</span><span class="m">1.2</span><span class="p">,</span><span class="m">1</span><span class="p">]</span><span class="w">
+</span><span class="w"></span><span class="nt">num_classes</span><span class="p">:</span><span class="w"> </span><span class="m">3</span><span class="w">
+</span><span class="w"></span><span class="nt">dataloader</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;data_loader&#39;</span><span class="w">
+</span><span class="w"></span><span class="nt">comp</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;femur&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;tibia&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;background&#39;</span><span class="p">]</span><span class="w">
+</span><span class="w"></span><span class="nt">key_slice</span><span class="p">:</span><span class="w"> </span><span class="cp">!!python/tuple</span><span class="w"> </span><span class="p">[</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">]</span><span class="w">
+</span><span class="w"></span><span class="nt">patience</span><span class="p">:</span><span class="w"> </span><span class="m">15</span><span class="w"> </span><span class="c"># in number of validation runs</span><span class="w">
+</span><span class="w"></span><span class="nt">keep_prob </span><span class="p">:</span><span class="w"> </span><span class="m">0.95</span><span class="w">
+</span><span class="w"></span><span class="nt">val_freq </span><span class="p">:</span><span class="w"> </span><span class="m">75</span><span class="w"> </span><span class="c"># in steps</span><span class="w">
 </span><span class="w">
-</span><span class="w"></span><span class="k">model_folder</span><span class="p">:</span><span class="w"> </span>VNet<span class="w">
-</span><span class="w"></span><span class="k">model</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;VNet&#39;</span><span class="w">
-</span><span class="w"></span><span class="k">model_params</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="nt">model_folder</span><span class="p">:</span><span class="w"> </span><span class="l">VNet</span><span class="w">
+</span><span class="w"></span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;VNet&#39;</span><span class="w">
+</span><span class="w"></span><span class="nt">model_params</span><span class="p">:</span><span class="w">
 </span><span class="w"></span><span class="c"># github.com/MiguelMonteiro/VNet-Tensorflow</span><span class="w">
-</span><span class="w"></span><span class="k">num_classes</span><span class="p">:</span><span class="w"> </span><span class="m">3</span><span class="w">
-</span><span class="w"></span><span class="k">num_channels </span><span class="p">:</span><span class="w"> </span><span class="m">32</span><span class="w">
-</span><span class="w"></span><span class="k">num_levels </span><span class="p">:</span><span class="w"> </span><span class="m">5</span><span class="w">
-</span><span class="w"></span><span class="k">num_convolutions </span><span class="p">:</span><span class="w"> </span><span class="cp">!!python/tuple</span><span class="w"> </span><span class="p">[</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">]</span><span class="w">
-</span><span class="w"></span><span class="k">bottom_convolutions </span><span class="p">:</span><span class="w"> </span><span class="m">2</span><span class="w">
+</span><span class="w"></span><span class="nt">num_classes</span><span class="p">:</span><span class="w"> </span><span class="m">3</span><span class="w">
+</span><span class="w"></span><span class="nt">num_channels </span><span class="p">:</span><span class="w"> </span><span class="m">32</span><span class="w">
+</span><span class="w"></span><span class="nt">num_levels </span><span class="p">:</span><span class="w"> </span><span class="m">5</span><span class="w">
+</span><span class="w"></span><span class="nt">num_convolutions </span><span class="p">:</span><span class="w"> </span><span class="cp">!!python/tuple</span><span class="w"> </span><span class="p">[</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">]</span><span class="w">
+</span><span class="w"></span><span class="nt">bottom_convolutions </span><span class="p">:</span><span class="w"> </span><span class="m">2</span><span class="w">
 </span><span class="w">
-</span><span class="w"></span><span class="k">pretrain</span><span class="p">:</span><span class="w">
-</span><span class="w"></span><span class="k">flag</span><span class="p">:</span><span class="w"> </span>False<span class="w">
-</span><span class="w"></span><span class="k">ckpt</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;&#39;</span><span class="w">
+</span><span class="w"></span><span class="nt">pretrain</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="nt">flag</span><span class="p">:</span><span class="w"> </span><span class="kc">False</span><span class="w">
+</span><span class="w"></span><span class="nt">ckpt</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;&#39;</span><span class="w">
 </span></code></pre></div></li>
 <li>
 <p>Activate the python environment:</p>
@@ -323,8 +323,8 @@ python main.py --cfg /MY_PATH/dioscoridess/cfgs/my_input.yaml --desc <span class
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.72.0</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-          &nbsp;&bull;&nbsp;[<a href="https://github.com/alemorm/ucsf-radiology-getting-started/tree/666bc95ce31f461d3270a542ff1f4daab6e1beab">666bc95</a>]
+          <a href="http://gohugo.io">Hugo v0.75.1</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          &nbsp;&bull;&nbsp;[<a href="https://github.com/alemorm/ucsf-radiology-getting-started/tree/3129f7c3635b2982b7e74e8b45baecfff99b5a85">3129f7c</a>]
           
         </p>
       </div>

@@ -27,5 +27,16 @@ From the matlab command window, use the following commands:
 - `figure; imagine2(3D_data)`
   - Replace `3D_data` with your actual 3D data array
 
+---
+
+### Keyboard Mapping
+
+There are several keybindings available for Matlab, with Emacs being the default for the radiology servers. If you are more comfortable with a Windows keybinding scheme (Ctrl+C to copy, Ctrl+V to paste, Ctrl+R to comment, etc) then you can change it by:
+
+- Go to File or Environment -> Preferences -> Keyboard -> Shortcuts
+  - Change the Active Settings to *Windows*
+
+---
+
 <!-- Links -->
 [imagine]: https://github.com/imagineStudios/Imagine-Legacy
