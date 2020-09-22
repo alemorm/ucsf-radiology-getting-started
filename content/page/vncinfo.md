@@ -24,6 +24,8 @@ Unlike SSH, VNC allows you to access a virtual display of the servers. This lets
 
 - Refer to the Scientific Computing Services (SCS) [official VNC tutorial][scsvnc] for more advanced options (requires UCSF login)
 
+---
+
 <!-- Links -->
 [vncviewer]: https://www.realvnc.com/en/connect/download/viewer/
 [vncimage]: /materials/vncserversample.png "VNC Output"

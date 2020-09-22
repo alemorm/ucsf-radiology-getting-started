@@ -62,7 +62,7 @@ A collection of useful educational resources and tutorials in order to learn abo
 
 ---
 
-*This website is being actively maintained and improved. [Please contact me if you experience any issues][mailme]*
+*This website is being actively maintained and improved. [Please contact me if you experience any issues or if you have any suggestions][mailme]*
 
 <!-- Links -->
 [ucsflogo]: /materials/UCSF_sublogo_RadiologyBiomedicalImaging_navy_RGB.png "UCSF logo"

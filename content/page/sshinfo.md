@@ -27,6 +27,8 @@ Depending on the operating system you are using, follow these options:
   - Specify the local port forwarding, using the same number `9XXX`, higher than `9020`, both the source port and the destination port
   - There will be a prompt for your UCSF password
 
+---
+
 <!-- Links -->
 [ssh]: https://en.wikipedia.org/wiki/Secure_Shell
 [ucsfservers]: https://ucsf.box.com/s/yx3hv4trm4kniy1in0op2y7nzeukouf2

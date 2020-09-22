@@ -21,7 +21,7 @@ tags: ["onboarding", "git"]
 
 ---
 
-### 4. [Request git access][gitaccess] (requires UCSF login)
+### 4. [Request Radiology GitHub access][gitaccess] (requires UCSF login)
 
 {{< notice note >}}
 
@@ -31,7 +31,7 @@ tags: ["onboarding", "git"]
 
 ---
 
-### 5. [Request gitlab access][gitlabaccess] (requires UCSF login)
+### 5. [Request Radiology GitLab access][gitlabaccess] (requires UCSF login)
 
 {{< notice note >}}
 

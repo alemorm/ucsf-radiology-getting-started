@@ -31,6 +31,8 @@ Useful [3blue1brown] educational video on CNNs
 
 {{< youtube aircAruvnKk >}}
 
+---
+
 <!-- Links -->
 [stanfordcs229]: https://stanford.edu/~shervine/teaching/cs-229/
 [stanfordcs231n]: https://cs231n.github.io/

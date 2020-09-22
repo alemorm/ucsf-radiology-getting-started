@@ -27,5 +27,8 @@ One of the simplest and most versatile ways to use python is through Jupyter Lab
 
 {{< youtube 7wfPqAyYADY >}}
 
+---
+
+<!-- Links -->
 [serveraccessres]: /page/sshinfo
 [pythonres]: /page/pythoninfo
