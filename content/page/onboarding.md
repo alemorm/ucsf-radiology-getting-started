@@ -45,5 +45,5 @@ tags: ["onboarding", "git"]
 [anamaria]: mailto:anamaria.deluca@ucsf.edu
 [twofactor]: https://it.ucsf.edu/service/multi-factor-authentication-duo
 [vpn]: https://it.ucsf.edu/how-to/vpn-faq
-[gitaccess]: https://ucsf.service-now.com/ucsfit?id=ucsf_sc_cat_item&sys_id=4c27c74ddd401d00e2dc5234ed620758
+[gitaccess]: https://ucsf.service-now.com/ucsfit?id=ucsf_sc_cat_item&sys_id=93bee8021b591810fd5d85507e4bcbf4&sysparm_category=40c0305b7b92d000e2dc8180984d4d9f
 [gitlabaccess]: https://ucsf.service-now.com/ucsfit?sys_id=f841e3722b20b14019d7c71317da154e&id=ucsf_sc_cat_item

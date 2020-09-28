@@ -64,6 +64,7 @@
 
     <div class="avatar-container">
       <div class="avatar-img-border">
+        {{ partial "toggle.html" . }}
         {{ if isset .Site.Params "logo" }}
           <a title="{{ .Site.Title }}" href="{{ "" | absLangURL }}">
             <img class="avatar-img" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" />

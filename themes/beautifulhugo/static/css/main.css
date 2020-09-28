@@ -163,16 +163,18 @@ img {
   transition: opacity 0.5s ease-in-out;
   left: 50%;
   width: 50px;
-  margin-top: -25px;
+  margin-top: -35px;
 }
-.navbar-custom .avatar-container  .avatar-img-border {
+
+.navbar-custom .avatar-container .avatar-img-border {
   width: 100%;
   border-radius: 50%;
-  margin-left: -50%;
+  margin-left: -10%;
   display: inline-block;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  border-width: 10px;
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); */
 }
 .navbar-custom .avatar-container  .avatar-img {
   width: 100%;
@@ -181,7 +183,7 @@ img {
 }
 
 .navbar-custom.top-nav-short .avatar-container{
-  opacity: 0;
+  opacity: 1;
 }
 
 .navbar-custom.top-nav-expanded .avatar-container  {
@@ -190,18 +192,23 @@ img {
 
 @media only screen and (min-width: 768px) {
   .navbar-custom .avatar-container {
-    width: 100px;
+    width: 50px;
     margin-top: -50px;
   }
   
-  .navbar-custom .avatar-container  .avatar-img-border {
+  .navbar-custom .avatar-container .avatar-img-border {
     width: 100%;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-left: -15%;
+    display: inline-block;
+    border-width: 0px;
+    /* box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8); */
   }
   
-  .navbar-custom .avatar-container  .avatar-img {
+  .navbar-custom .avatar-container .avatar-img {
     width: 100%;
   }
 }
@@ -701,4 +708,88 @@ td.gutter {
 input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button {
   box-sizing: content-box;
   line-height: normal;
+}
+
+/* --- Dark Mode Support --- */
+
+/* Main class makes up most of the website */
+body.dark-mode, 
+body.dark-mode main *,
+body.dark-mode .pager * {
+  background: rgb(45, 45, 45);
+  color: #f5f5f5;
+}
+
+/* Switches the UCSF logo to the white version for better contrast */
+body.dark-mode h1#ucsflogoucsfrad img {
+  content: url("https://radiology.ucsf.edu/sites/radiology.ucsf.edu/files/wysiwyg/news/media-kit/UCSF_sublogo_RadiologyBiomedicalImaging_white_RBG.png");
+}
+
+/* Changes the footer text */
+body.dark-mode p.credits.copyright.text-muted,
+body.dark-mode p.credits.theme-by.text-muted {
+  background: rgb(65, 65, 65);
+  color: #f5f5f5;
+}
+
+/* Changes the intro page and tags blocks */
+body.dark-mode div.well,
+body.dark-mode a.list-group-item {
+  background: rgb(65, 65, 65);
+  color: #f5f5f5;
+  border: 1px solid rgb(85, 85, 85);
+}
+
+/* Changes the navigation bar */
+body.dark-mode .navbar-custom,
+body.dark-mode .navbar-custom .navbar-brand,
+body.dark-mode .navbar-custom .nav li a {
+  background: rgb(65, 65, 65);
+  color: #f5f5f5;
+}
+
+/* Changes the nagivation bar dropdown menus */
+body.dark-mode .navbar-custom .nav .navlinks-container .navlinks-children,
+body.dark-mode .navbar-custom .nav .navlinks-container .navlinks-children a {
+  background: rgb(65, 65, 65);
+  border: 1px solid rgb(85, 85, 85);
+}
+
+/* Changes the color for hovering over links */
+body.dark-mode .navbar-custom .navbar-brand:hover,
+body.dark-mode .navbar-custom .nav li a:hover,
+body.dark-mode a {
+  color: #8a6ba0;
+}
+
+/* Darkens the hugo-notice theme boxes and code syntax */
+body.dark-mode div.notice,
+body.dark-mode div.warning,
+body.dark-mode div.info,
+body.dark-mode div.tip,
+body.dark-mode code {
+  filter: brightness(75%);
+}
+
+/* Changes blockquotes */
+body.dark-mode blockquote {
+  background: rgb(65, 65, 65);
+  color: #f5f5f5;
+}
+
+/* Changes the hover color the parent option in dropdown menus */
+body.dark-mode .navbar-custom .nav li a:hover {
+  background: rgb(75, 75, 75);
+}
+
+/* Changes the bottom border of the navigation menu */
+body.dark-mode .navbar-custom {
+  border-bottom: 1px  rgb(85, 85, 85) solid;
+}
+
+/* Changes the footer */
+body.dark-mode footer {
+  background: rgb(65, 65, 65);
+  color: #f5f5f5;
+  border-top: 1px  rgb(85, 85, 85) solid;
 }
