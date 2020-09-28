@@ -145,9 +145,9 @@ img {
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
-    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -webkit-transition: padding .5s ease-in-out;
+    -moz-transition: padding .5s ease-in-out;
+    transition: padding .5s ease-in-out;
   }
 
   .navbar-custom.top-nav-short {
@@ -199,7 +199,7 @@ img {
   .navbar-custom .avatar-container .avatar-img-border {
     width: 100%;
     border-radius: 50%;
-    margin-top: 20%;
+    margin-top: 25%;
     margin-left: -15%;
     display: inline-block;
     border-width: 0px;

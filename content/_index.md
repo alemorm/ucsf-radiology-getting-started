@@ -66,7 +66,6 @@ A collection of useful educational resources and tutorials in order to learn abo
 
 <!-- Links -->
 [ucsflogo]: /materials/UCSF_sublogo_RadiologyBiomedicalImaging_navy_RGB.png "UCSF logo"
-[ucsflogodark]: /materials/UCSF_sublogo_RadiologyBiomedicalImaging_white_RBG.png "UCSF logo dark"
 [ucsfrad]: https://radiology.ucsf.edu/
 [mrires]: /page/mriedu
 [linuxres]: /page/linuxedu
