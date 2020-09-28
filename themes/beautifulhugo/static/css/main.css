@@ -762,6 +762,11 @@ body.dark-mode a {
   color: #8a6ba0;
 }
 
+/* Changes the border color for the codeblocks */
+body.dark-mode pre.chroma {
+  border-left: 7px #8a6ba0 solid;
+}
+
 /* Darkens the hugo-notice theme boxes and code syntax */
 body.dark-mode div.notice,
 body.dark-mode div.warning,
