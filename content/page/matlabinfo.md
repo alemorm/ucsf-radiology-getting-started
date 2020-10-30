@@ -19,7 +19,7 @@ The servers have many versions of Matlab. Using Matlab is quite simple, all it r
 
 [Imagine] is an useful visualization tool for 3D images, to download it, use the following command:
 
-- `cd ~ && git clone https://github.com/imagineStudios/Imagine-Legacy.git`
+- `git clone https://github.com/imagineStudios/Imagine-Legacy.git ~/`
 
 From the matlab command window, use the following commands:
 
@@ -33,7 +33,7 @@ From the matlab command window, use the following commands:
 
 There are several keybindings available for Matlab, with Emacs being the default for the radiology servers. If you are more comfortable with a Windows keybinding scheme (Ctrl+C to copy, Ctrl+V to paste, Ctrl+R to comment, etc) then you can change it by:
 
-- Go to File or Environment -> Preferences -> Keyboard -> Shortcuts
+- Go to File or Environment > Preferences > Keyboard > Shortcuts
   - Change the Active Settings to *Windows*
 
 ---
