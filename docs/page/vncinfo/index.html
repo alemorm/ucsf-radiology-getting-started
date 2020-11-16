@@ -317,10 +317,26 @@ if (!doNotTrack) {
 </ul>
 <p><img src="https://alemorm.github.io/ucsf-radiology-getting-started/materials/vncserversample.png" alt="vncimage" title="VNC Output"></p>
 <ul>
-<li>Open VNC Viewer and type the server information in the following form:
+<li>
+<p>Open VNC Viewer and type the server information in the following form:</p>
 <ul>
 <li>e.g. <code>servername.radiology.ucsf.edu:7</code></li>
 <li>You will be prompted for your UCSF username and password.</li>
+</ul>
+</li>
+<li>
+<p>To change the resolution of the VNC display to match your monitor resolution type the following command into a VNC terminal:</p>
+<ul>
+<li><code>xrandr</code>
+<ul>
+<li>Choose a resolution from the available options.</li>
+<li>E.g. for 2560x1600 if it has index 11, type the following command into a VNC terminal:
+<ul>
+<li><code>xrandr -s 11</code></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -404,7 +420,7 @@ if (!doNotTrack) {
         
         <p class="credits theme-by text-muted">
           <a href="http://gohugo.io">Hugo v0.72.0</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-          &nbsp;&bull;&nbsp;[<a href="https://github.com/alemorm/ucsf-radiology-getting-started/tree/d8d4bfc43e8b54bba6f8a2f53da87b8e2a07ff42">d8d4bfc</a>]
+          &nbsp;&bull;&nbsp;[<a href="https://github.com/alemorm/ucsf-radiology-getting-started/tree/2a8e8a304a02d91961d55369f938224ebab75312">2a8e8a3</a>]
           
         </p>
       </div>

@@ -18,6 +18,12 @@ Unlike SSH, VNC allows you to access a virtual display of the servers. This lets
   - e.g. `servername.radiology.ucsf.edu:7`
   - You will be prompted for your UCSF username and password.
 
+- To change the resolution of the VNC display to match your monitor resolution type the following command into a VNC terminal:
+  - `xrandr`
+    - Choose a resolution from the available options.
+    - E.g. for 2560x1600 if it has index 11, type the following command into a VNC terminal:
+      - `xrandr -s 11`
+
 ---
 
 ### Advanced
