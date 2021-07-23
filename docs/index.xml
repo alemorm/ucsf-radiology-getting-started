@@ -131,9 +131,8 @@ Installation  Follow the earlier steps to SSH into one of the login node servers
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/scannerinfo/</guid>
       <description>UCSF Research Imaging Systems  MR Scanners and Equipment To schedule scanner time, check the MB3T7T Outlook calendar and ask Dan Vigneron or Peder Larson about open slots.
-  GE 3T: used for most clinical studies, all hyperpolarized studies, some preclinical studies. See MRI technologist for available coil and phantom setups.
-  GE 7T: used for mostly brain studies
-   </description>
+Scanner Information from Radiology SCS (UCSF login required) - listing of all UCSF MRI scanners and some information about each, contact information for questions
+  GE 3T: used for most clinical studies, all hyperpolarized studies, some preclinical studies. See MRI technologist for available coil and phantom setups.</description>
     </item>
     
     <item>
