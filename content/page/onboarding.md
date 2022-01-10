@@ -21,13 +21,7 @@ tags: ["onboarding", "git"]
 
 ---
 
-### 4. [Request Radiology GitHub access][gitaccess] (requires UCSF login)
-
-{{< notice note >}}
-
-- Write **Radiology** under **Additional Information** at the bottom of the form.
-
-{{< /notice >}}
+### 4. [Request UCSF GitHub access][gitaccess] (requires UCSF login)
 
 ---
 
