@@ -7,7 +7,7 @@ tags: ["onboarding", "git"]
 
 ---
 
-### 1. Get a Zoom account:
+### 1. Get a Slack account:
 
 - Email [Ana Maria Deluca][anamaria] a brief description of who you are and which group you belong to
 
