@@ -6,11 +6,7 @@
     <description>Recent content in linux on Getting Started</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</managingEditor>
-    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster>
-    
-	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster><atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitedu/</link>
@@ -18,7 +14,7 @@
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitedu/</guid>
       <description>Git Resources Git is a powerful versioning control system that allows you to keep track of changes for your files. Additionally, it allows for collaboration with other people on the same project. It is recommended to develop your work using a versioning tool such as git.
- Quick Git Intro      Peder Larson Group:  Git Tutorial Software Development for Scientists     </description>
+ Quick Git Intro      Peder Larson Group:  Git Tutorial Software Development for Scientists       </description>
     </item>
     
     <item>
@@ -38,8 +34,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/serverinfo/</guid>
-      <description>Radiology Server Access All of the imaging and medical patient data is located within UCSF Radiology encrypted Linux servers. Here is how to access them:
-List of Radiology servers Please refer to the full list of Radiology servers (requires UCSF login) for a comprehensive list of servers grouped by CPU and GPU resources.
+      <description>Radiology SCS Server Access All of the imaging and medical patient data is located within UCSF Radiology encrypted Linux servers. This is run by Scientific Computing Services (SCS). Information for access is at
+https://wiki.radiology.ucsf.edu/bin/view/SCS/ (requires UCSF VPN login)
+https://git.ucsf.edu/pages/intelligent-imaging-computational-core/i2-hpc-doc/index.html (requires UCSF VPN and UCSF GitHub account)
+Please contact your PI or lab members to see which hosts to use for logging in.
  </description>
     </item>
     

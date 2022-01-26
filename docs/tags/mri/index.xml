@@ -6,11 +6,7 @@
     <description>Recent content in MRI on Getting Started</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</managingEditor>
-    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster>
-    
-	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/mri/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster><atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/mri/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/mriedu/</link>
@@ -19,12 +15,12 @@
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/mriedu/</guid>
       <description>MRI Resources Helpful introductions to MRI physics, image formation, image artifacts and terminology.
   Albert Einstein College of Medicine Introductory Series
-      Peder Larson Group     Siemens:
+       UCSF Biomedical Imaging 201 : Principles of MRI
+      Larson Advanced Imaging Group Educational Resources     Siemens:
   MRI Physics
   MRI Acquisition and Artifacts
   MRI Glossary
-  MRI Acronyms
-     </description>
+  MRI Acronyms</description>
     </item>
     
     <item>

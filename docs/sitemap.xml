@@ -1,150 +1,92 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/</loc>
-    <lastmod>2021-07-14T10:44:19-07:00</lastmod>
+    <lastmod>2022-01-10T16:00:04-08:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/deeplearninginfo/</loc>
     <lastmod>2020-09-22T11:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/dioscoridess/</loc>
     <lastmod>2020-09-22T11:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/gitedu/</loc>
-    <lastmod>2020-09-22T11:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-10T15:42:20-08:00</lastmod>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/jupyterinfo/</loc>
     <lastmod>2020-09-22T11:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/linuxedu/</loc>
     <lastmod>2020-09-22T11:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/machinelearningedu/</loc>
     <lastmod>2020-09-22T11:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/matlabinfo/</loc>
     <lastmod>2020-10-30T14:49:49-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/mriedu/</loc>
-    <lastmod>2020-09-22T11:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-10T15:40:08-08:00</lastmod>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/onboarding/</loc>
-    <lastmod>2020-09-27T18:00:14-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-10T11:23:17-08:00</lastmod>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/pythoninfo/</loc>
     <lastmod>2020-09-22T12:19:27-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/scannerinfo/</loc>
     <lastmod>2021-07-14T10:44:19-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/serverinfo/</loc>
-    <lastmod>2020-09-22T11:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-10T16:00:04-08:00</lastmod>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/sshinfo/</loc>
     <lastmod>2020-09-22T11:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/vncinfo/</loc>
     <lastmod>2020-11-16T12:48:53-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/deeplearning/</loc>
     <lastmod>2020-09-22T11:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/git/</loc>
-    <lastmod>2020-09-27T18:00:14-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-10T15:42:20-08:00</lastmod>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/jupyter/</loc>
     <lastmod>2020-09-22T11:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/linux/</loc>
-    <lastmod>2020-11-16T12:48:53-08:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-10T16:00:04-08:00</lastmod>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/machinelearning/</loc>
     <lastmod>2020-09-22T11:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/matlab/</loc>
     <lastmod>2020-10-30T14:49:49-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/mri/</loc>
-    <lastmod>2021-07-14T10:44:19-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-10T15:40:08-08:00</lastmod>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/onboarding/</loc>
-    <lastmod>2020-09-27T18:00:14-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-10T11:23:17-08:00</lastmod>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/page/</loc>
-    <lastmod>2021-07-14T10:44:19-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-10T16:00:04-08:00</lastmod>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/python/</loc>
     <lastmod>2020-09-22T12:19:27-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/ssh/</loc>
     <lastmod>2020-09-22T11:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/</loc>
-    <lastmod>2021-07-14T10:44:19-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-10T16:00:04-08:00</lastmod>
+  </url><url>
     <loc>https://alemorm.github.io/ucsf-radiology-getting-started/tags/vnc/</loc>
     <lastmod>2020-11-16T12:48:53-08:00</lastmod>
   </url>
-  
 </urlset>

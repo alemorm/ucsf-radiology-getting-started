@@ -141,3 +141,16 @@ pygmentCodeFences = true
     name = "Tags"
     url = "tags"
     weight = 4
+
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+    osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+
+  [security.funcs]
+    getenv = ['^HUGO_', 'GIT_COMMIT_SHA', 'GIT_COMMIT_SHA_SHORT']
+
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']

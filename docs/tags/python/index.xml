@@ -6,11 +6,7 @@
     <description>Recent content in python on Getting Started</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</managingEditor>
-    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster>
-    
-	<atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <webMaster>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</webMaster><atom:link href="https://alemorm.github.io/ucsf-radiology-getting-started/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://alemorm.github.io/ucsf-radiology-getting-started/page/deeplearninginfo/</link>
@@ -28,10 +24,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>alejandro.moralesmartinez@ucsf.edu (Alejandro Morales Martinez)</author>
       <guid>https://alemorm.github.io/ucsf-radiology-getting-started/page/dioscoridess/</guid>
-      <description>DioscoriDESS  .notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Note
- Make sure to replace /MY_PATH/dioscoridess/ with a location of your choice.    Make a directory where your input files (.yaml) and output files (.h5) will be stored:
+      <description>DioscoriDESS  - Make sure to replace `/MY_PATH/dioscoridess/` with a location of your choice.    Make a directory where your input files (.yaml) and output files (.h5) will be stored:
 mkdir -p /MY_PATH/dioscoridess/cfgs mkdir -p /MY_PATH/dioscoridess/logs mkdir -p /MY_PATH/dioscoridess/ckpt   Create your yaml file and save in /MY_PATH/dioscoridess/cfgs/my_input.yaml:
-# Sample .</description>
+# Sample ./yaml config filecommon:seed:1234vis_GPU:&amp;#39;1&amp;#39;#single GPU compatibilitylog_path:&amp;#39;./experiments/training/logs/&amp;#39;save_path:&amp;#39;./experiments/training/ckpt/&amp;#39;print_freq:25data_train:data_root:&amp;#39;/data/bigbone5/JacobOeding/DL_code/splits/axial_train.csv&amp;#39;batch_size:4im_dims:!!python/tuple[512,512]crop :!!python/tuple[0,0,0,0]num_classes:3idx_classes :[0,1,2]num_channels:1normalization_file:&amp;#39;/data/bigbone5/JacobOeding/DL_code/dataInfo/Axial_MinMaxDataset.csv&amp;#39;data_val:data_root :&amp;#39;/data/bigbone5/JacobOeding/DL_code/splits/axial_val_onlySegmentedSlices.csv&amp;#39;batch_size:4im_dims:!!python/tuple[512,512]crop :!!python/tuple[0,0,0,0]num_classes:3idx_classes :[0,1,2]num_channels:1normalization_file:&amp;#39;/data/bigbone5/JacobOeding/DL_code/dataInfo/Axial_MinMaxDataset.csv&amp;#39;evaluate_mode:TruedataLoader_folder:&amp;#39;dataLoader&amp;#39;learn:max_steps:500000# instead of epochslr :0.00005optimizer:&amp;#39;adam&amp;#39;loss:&amp;#39;dice_loss_softmax&amp;#39;metrics:&amp;#39;dice_score&amp;#39;weights:[1,1.2,1]num_classes:3dataloader:&amp;#39;data_loader&amp;#39;comp:[&amp;#39;femur&amp;#39;,&amp;#39;tibia&amp;#39;,&amp;#39;background&amp;#39;]key_slice:!!python/tuple[0,0,0]patience:15# in number of validation runskeep_prob :0.</description>
     </item>
     
     <item>

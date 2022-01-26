@@ -82,4 +82,4 @@ A collection of useful educational resources and tutorials in order to learn abo
 [jupyterres]: /page/jupyterinfo
 [dlres]: /page/deeplearninginfo
 [dioscoridess]: /page/dioscoridess
-[mailme]: mailto:alejandro.moralesmartinez@ucsf.edu
+[mailme]: mailto:alegmoralesm@gmail.com
