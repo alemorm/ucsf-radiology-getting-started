@@ -3,13 +3,15 @@ subtitle: "Server Access Information"
 tags: [linux]
 ---
 
-## Radiology Server Access
+## Radiology SCS Server Access
 
-All of the imaging and medical patient data is located within UCSF Radiology encrypted Linux servers. Here is how to access them:
+All of the imaging and medical patient data is located within UCSF Radiology encrypted Linux servers.  This is run by Scientific Computing Services (SCS). Information for access is at
 
-### List of Radiology servers
+https://wiki.radiology.ucsf.edu/bin/view/SCS/ (requires UCSF VPN login)
 
-Please refer to the [full list of Radiology servers (requires UCSF login)][ucsfservers] for a comprehensive list of servers grouped by CPU and GPU resources.
+https://git.ucsf.edu/pages/intelligent-imaging-computational-core/i2-hpc-doc/index.html (requires UCSF VPN and UCSF GitHub account)
+
+Please contact your PI or lab members to see which hosts to use for logging in.
 
 ---
 
